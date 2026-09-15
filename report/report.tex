@@ -1,0 +1,80 @@
+\documentclass{article}
+
+\PassOptionsToPackage{numbers}{natbib}
+\usepackage[main, final]{neurips_2026}
+
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{hyperref}       % hyperlinks
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{amsfonts}       % blackboard math symbols
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % microtypography
+\usepackage{xcolor}         % colors
+\usepackage{float}
+\usepackage{graphicx}
+
+\title{EE-5102/CS-6304 --- Advanced Topics in Machine Learning\\Programming Assignment 1}
+
+\author{
+  Faaiz Khan \\
+  Syed Babar Ali School of Science and Engineering\\
+  Lahore University of Management Sciences\\
+  Lahore, Pakistan\\
+  \texttt{25280051@lums.edu.pk} \\
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+  In general, supervised learning solutions generally assume that training and test data are independent and identically distributed. These solutions also assume a closed-set setting: a classification problem where the model only encounters classes during testing that it was explicitly trained to recognise. However, this is normally not the case. An object from a known class may appear with altered textures, colors, positions, or styles; test data may come from new domains; or an input may belong to a class that was not observed during training.   Consequently, a model can perform well in a controlled environment but break down in the real world because it relies on cues or statistical regularities that do not remain stable. This reports examines aspects of learning beyond the aforementioned assumptions, and then forms an argument about what a useful representation should preserve, suppress, and reject. You may find the associated code and \LaTeX files for this assignment in the following GitHub repository: \url{https://github.com/FaaizKhan1999/atml-assignment1}
+\end{abstract}
+
+\section{Tasks and Experiments}
+
+\subsection{Inductive Biases and Feature Representations}
+
+This is something I need to cite for this subsection \citep{geirhos2022imagenettrainedcnnsbiasedtexture}.
+
+\subsection{Unsupervised Domain Adaptation}
+
+\subsection{Domain Generalisation}
+
+\subsection{Open-Set Recognition (OSR)}
+
+\begin{table}[H]
+  \caption{Baseline ResNet-152 training and validation performance}
+  \centering
+  \begin{tabular}{lll}
+    \toprule
+          & \multicolumn{2}{c}{Performance}       \\
+\cmidrule(l){2-3}
+    Epoch & Training Loss   & Validation Accuracy \\
+    \midrule
+    1     & 0.6616          & 81.73\%             \\
+    2     & 0.5318          & 83.62\%             \\
+    3     & 0.4901          & 83.63\%             \\
+    4     & 0.4721          & 83.77\%             \\
+    5     & \textbf{0.4653} & \textbf{84.38\%}    \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.95\textwidth]{figs/cnn-feat-ext.png}
+  \caption{Feature visualisation of early, middle, and late layers in a ResNet-152 model evaluated on CIFAR-10}
+\end{figure}
+
+\pagebreak
+
+{
+\small
+\bibliographystyle{unsrtnat}
+\bibliography{refs} 
+}
+
+\end{document}
