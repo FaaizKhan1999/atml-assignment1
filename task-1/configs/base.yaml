@@ -1,0 +1,39 @@
+seed: 6304
+
+# Dataset Settings
+dataset:
+  name: "stl10"
+  train_val_split: 0.8
+  subset_size: 500
+  image_size: 224
+
+# Model Specifications
+models:
+  resnet:
+    name: "resnet50"
+    weights: "ResNet50_Weights.IMAGENET1K_V2"
+  vit:
+    name: "vit_b_16"
+    weights: "ViT_B_16_Weights.IMAGENET1K_V1"
+  clip:
+    name: "ViT-B-32"
+    pretrained: "openai"
+    prompt: "a photo of a {class}."
+
+# Linear Classifier Training Hyperparameters
+training:
+  optimizer: "AdamW"
+  learning_rate: 1.0e-3
+  weight_decay: 1.0e-4
+  max_epochs: 50
+  early_stopping_patience: 5
+
+# Interventions
+interventions:
+  translation:
+    shifts: [0, 8, 16, 32]
+  patch_shuffle:
+    grid_size: 4
+  cue_conflict:
+    min_class_pairs: 5
+    min_valid_images: 200

@@ -6,4 +6,27 @@
 *.synctex.gz
 *.bbl
 
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
 .venv/
+venv/
+env/
+.env
+
+data/*/
+task-1/data/stl10_binary/
+*.tar.gz
+*.zip
+
+checkpoints/
+task-1/checkpoints/
+*.pth
+*.pt
+
+wandb/
+runs/
+logs/
+
