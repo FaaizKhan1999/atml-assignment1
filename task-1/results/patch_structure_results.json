@@ -1,0 +1,26 @@
+{
+    "resnet": {
+        "clean_acc": 0.972,
+        "patch_acc": 0.878,
+        "acc_drop": -0.09399999999999997,
+        "consistency": 0.902
+    },
+    "vit": {
+        "clean_acc": 0.974,
+        "patch_acc": 0.896,
+        "acc_drop": -0.07799999999999996,
+        "consistency": 0.91
+    },
+    "clip": {
+        "clean_acc": 0.97,
+        "patch_acc": 0.772,
+        "acc_drop": -0.19799999999999995,
+        "consistency": 0.784
+    },
+    "clip_zeroshot": {
+        "clean_acc": 0.934,
+        "patch_acc": 0.748,
+        "acc_drop": -0.18600000000000005,
+        "consistency": 0.76
+    }
+}

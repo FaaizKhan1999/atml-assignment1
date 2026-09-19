@@ -1,0 +1,26 @@
+{
+    "resnet": {
+        "cosine_stability": {
+            "grayscale": 0.7970545887947083,
+            "translation_d16": 0.9528099894523621,
+            "patch_shuffle": 0.6955819129943848,
+            "cue_conflict": 0.4709024429321289
+        }
+    },
+    "vit": {
+        "cosine_stability": {
+            "grayscale": 0.7316563725471497,
+            "translation_d16": 0.976048469543457,
+            "patch_shuffle": 0.6283052563667297,
+            "cue_conflict": 0.47260844707489014
+        }
+    },
+    "clip": {
+        "cosine_stability": {
+            "grayscale": 0.8787292242050171,
+            "translation_d16": 0.964582085609436,
+            "patch_shuffle": 0.748587965965271,
+            "cue_conflict": 0.7904614210128784
+        }
+    }
+}

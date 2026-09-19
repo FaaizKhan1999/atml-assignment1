@@ -1,0 +1,38 @@
+{
+    "resnet": {
+        "coverage": 0.7577777777777778,
+        "shape_bias": 0.9032258064516129,
+        "raw_counts": {
+            "shape_chosen": 308,
+            "texture_chosen": 33,
+            "neither_chosen": 109
+        }
+    },
+    "vit": {
+        "coverage": 0.8266666666666667,
+        "shape_bias": 0.9408602150537635,
+        "raw_counts": {
+            "shape_chosen": 350,
+            "texture_chosen": 22,
+            "neither_chosen": 78
+        }
+    },
+    "clip": {
+        "coverage": 0.7822222222222223,
+        "shape_bias": 0.9517045454545454,
+        "raw_counts": {
+            "shape_chosen": 335,
+            "texture_chosen": 17,
+            "neither_chosen": 98
+        }
+    },
+    "clip_zeroshot": {
+        "coverage": 0.8,
+        "shape_bias": 0.9388888888888889,
+        "raw_counts": {
+            "shape_chosen": 338,
+            "texture_chosen": 22,
+            "neither_chosen": 90
+        }
+    }
+}

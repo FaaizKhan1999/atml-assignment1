@@ -1,0 +1,1802 @@
+{
+    "shape0_texture1_5530_2673.png": {
+        "shape_class": 0,
+        "texture_class": 1
+    },
+    "shape0_texture1_1987_61.png": {
+        "shape_class": 0,
+        "texture_class": 1
+    },
+    "shape0_texture1_2838_6972.png": {
+        "shape_class": 0,
+        "texture_class": 1
+    },
+    "shape0_texture1_5272_4317.png": {
+        "shape_class": 0,
+        "texture_class": 1
+    },
+    "shape0_texture1_2848_4729.png": {
+        "shape_class": 0,
+        "texture_class": 1
+    },
+    "shape0_texture2_782_2783.png": {
+        "shape_class": 0,
+        "texture_class": 2
+    },
+    "shape0_texture2_2971_4465.png": {
+        "shape_class": 0,
+        "texture_class": 2
+    },
+    "shape0_texture2_1553_5476.png": {
+        "shape_class": 0,
+        "texture_class": 2
+    },
+    "shape0_texture2_3164_2308.png": {
+        "shape_class": 0,
+        "texture_class": 2
+    },
+    "shape0_texture2_6034_158.png": {
+        "shape_class": 0,
+        "texture_class": 2
+    },
+    "shape0_texture3_4871_6215.png": {
+        "shape_class": 0,
+        "texture_class": 3
+    },
+    "shape0_texture3_222_7497.png": {
+        "shape_class": 0,
+        "texture_class": 3
+    },
+    "shape0_texture3_3005_3436.png": {
+        "shape_class": 0,
+        "texture_class": 3
+    },
+    "shape0_texture3_5930_2203.png": {
+        "shape_class": 0,
+        "texture_class": 3
+    },
+    "shape0_texture3_2518_1949.png": {
+        "shape_class": 0,
+        "texture_class": 3
+    },
+    "shape0_texture4_1553_707.png": {
+        "shape_class": 0,
+        "texture_class": 4
+    },
+    "shape0_texture4_7788_3142.png": {
+        "shape_class": 0,
+        "texture_class": 4
+    },
+    "shape0_texture4_2971_143.png": {
+        "shape_class": 0,
+        "texture_class": 4
+    },
+    "shape0_texture4_4871_817.png": {
+        "shape_class": 0,
+        "texture_class": 4
+    },
+    "shape0_texture4_3768_6484.png": {
+        "shape_class": 0,
+        "texture_class": 4
+    },
+    "shape0_texture5_2870_6932.png": {
+        "shape_class": 0,
+        "texture_class": 5
+    },
+    "shape0_texture5_1693_4934.png": {
+        "shape_class": 0,
+        "texture_class": 5
+    },
+    "shape0_texture5_782_6125.png": {
+        "shape_class": 0,
+        "texture_class": 5
+    },
+    "shape0_texture5_3051_5337.png": {
+        "shape_class": 0,
+        "texture_class": 5
+    },
+    "shape0_texture5_2799_5695.png": {
+        "shape_class": 0,
+        "texture_class": 5
+    },
+    "shape0_texture6_3613_3706.png": {
+        "shape_class": 0,
+        "texture_class": 6
+    },
+    "shape0_texture6_4535_6666.png": {
+        "shape_class": 0,
+        "texture_class": 6
+    },
+    "shape0_texture6_7225_4498.png": {
+        "shape_class": 0,
+        "texture_class": 6
+    },
+    "shape0_texture6_2870_6267.png": {
+        "shape_class": 0,
+        "texture_class": 6
+    },
+    "shape0_texture6_7079_5857.png": {
+        "shape_class": 0,
+        "texture_class": 6
+    },
+    "shape0_texture7_3437_6673.png": {
+        "shape_class": 0,
+        "texture_class": 7
+    },
+    "shape0_texture7_3923_7909.png": {
+        "shape_class": 0,
+        "texture_class": 7
+    },
+    "shape0_texture7_1693_1083.png": {
+        "shape_class": 0,
+        "texture_class": 7
+    },
+    "shape0_texture7_2870_1519.png": {
+        "shape_class": 0,
+        "texture_class": 7
+    },
+    "shape0_texture7_6439_1482.png": {
+        "shape_class": 0,
+        "texture_class": 7
+    },
+    "shape0_texture8_2799_6707.png": {
+        "shape_class": 0,
+        "texture_class": 8
+    },
+    "shape0_texture8_2971_452.png": {
+        "shape_class": 0,
+        "texture_class": 8
+    },
+    "shape0_texture8_2838_3922.png": {
+        "shape_class": 0,
+        "texture_class": 8
+    },
+    "shape0_texture8_3437_3150.png": {
+        "shape_class": 0,
+        "texture_class": 8
+    },
+    "shape0_texture8_3164_6625.png": {
+        "shape_class": 0,
+        "texture_class": 8
+    },
+    "shape0_texture9_6439_3983.png": {
+        "shape_class": 0,
+        "texture_class": 9
+    },
+    "shape0_texture9_5930_3517.png": {
+        "shape_class": 0,
+        "texture_class": 9
+    },
+    "shape0_texture9_1693_6660.png": {
+        "shape_class": 0,
+        "texture_class": 9
+    },
+    "shape0_texture9_3164_410.png": {
+        "shape_class": 0,
+        "texture_class": 9
+    },
+    "shape0_texture9_5272_6677.png": {
+        "shape_class": 0,
+        "texture_class": 9
+    },
+    "shape1_texture0_7098_5930.png": {
+        "shape_class": 1,
+        "texture_class": 0
+    },
+    "shape1_texture0_4166_1389.png": {
+        "shape_class": 1,
+        "texture_class": 0
+    },
+    "shape1_texture0_6328_7788.png": {
+        "shape_class": 1,
+        "texture_class": 0
+    },
+    "shape1_texture0_2899_5711.png": {
+        "shape_class": 1,
+        "texture_class": 0
+    },
+    "shape1_texture0_7721_894.png": {
+        "shape_class": 1,
+        "texture_class": 0
+    },
+    "shape1_texture2_6328_5476.png": {
+        "shape_class": 1,
+        "texture_class": 2
+    },
+    "shape1_texture2_61_6901.png": {
+        "shape_class": 1,
+        "texture_class": 2
+    },
+    "shape1_texture2_7874_2308.png": {
+        "shape_class": 1,
+        "texture_class": 2
+    },
+    "shape1_texture2_3744_786.png": {
+        "shape_class": 1,
+        "texture_class": 2
+    },
+    "shape1_texture2_6188_3485.png": {
+        "shape_class": 1,
+        "texture_class": 2
+    },
+    "shape1_texture3_1210_4023.png": {
+        "shape_class": 1,
+        "texture_class": 3
+    },
+    "shape1_texture3_2673_2681.png": {
+        "shape_class": 1,
+        "texture_class": 3
+    },
+    "shape1_texture3_5400_2203.png": {
+        "shape_class": 1,
+        "texture_class": 3
+    },
+    "shape1_texture3_1657_6635.png": {
+        "shape_class": 1,
+        "texture_class": 3
+    },
+    "shape1_texture3_3744_373.png": {
+        "shape_class": 1,
+        "texture_class": 3
+    },
+    "shape1_texture4_2433_4199.png": {
+        "shape_class": 1,
+        "texture_class": 4
+    },
+    "shape1_texture4_3744_4497.png": {
+        "shape_class": 1,
+        "texture_class": 4
+    },
+    "shape1_texture4_7721_3472.png": {
+        "shape_class": 1,
+        "texture_class": 4
+    },
+    "shape1_texture4_7824_649.png": {
+        "shape_class": 1,
+        "texture_class": 4
+    },
+    "shape1_texture4_1772_6737.png": {
+        "shape_class": 1,
+        "texture_class": 4
+    },
+    "shape1_texture5_5790_6932.png": {
+        "shape_class": 1,
+        "texture_class": 5
+    },
+    "shape1_texture5_1772_7403.png": {
+        "shape_class": 1,
+        "texture_class": 5
+    },
+    "shape1_texture5_7071_1702.png": {
+        "shape_class": 1,
+        "texture_class": 5
+    },
+    "shape1_texture5_6328_2507.png": {
+        "shape_class": 1,
+        "texture_class": 5
+    },
+    "shape1_texture5_7851_2734.png": {
+        "shape_class": 1,
+        "texture_class": 5
+    },
+    "shape1_texture6_61_580.png": {
+        "shape_class": 1,
+        "texture_class": 6
+    },
+    "shape1_texture6_593_5313.png": {
+        "shape_class": 1,
+        "texture_class": 6
+    },
+    "shape1_texture6_336_6418.png": {
+        "shape_class": 1,
+        "texture_class": 6
+    },
+    "shape1_texture6_5424_412.png": {
+        "shape_class": 1,
+        "texture_class": 6
+    },
+    "shape1_texture6_3744_2324.png": {
+        "shape_class": 1,
+        "texture_class": 6
+    },
+    "shape1_texture7_6328_1519.png": {
+        "shape_class": 1,
+        "texture_class": 7
+    },
+    "shape1_texture7_7469_1372.png": {
+        "shape_class": 1,
+        "texture_class": 7
+    },
+    "shape1_texture7_2673_7276.png": {
+        "shape_class": 1,
+        "texture_class": 7
+    },
+    "shape1_texture7_5517_468.png": {
+        "shape_class": 1,
+        "texture_class": 7
+    },
+    "shape1_texture7_1772_7102.png": {
+        "shape_class": 1,
+        "texture_class": 7
+    },
+    "shape1_texture8_7851_6998.png": {
+        "shape_class": 1,
+        "texture_class": 8
+    },
+    "shape1_texture8_2303_1735.png": {
+        "shape_class": 1,
+        "texture_class": 8
+    },
+    "shape1_texture8_4962_2059.png": {
+        "shape_class": 1,
+        "texture_class": 8
+    },
+    "shape1_texture8_4317_688.png": {
+        "shape_class": 1,
+        "texture_class": 8
+    },
+    "shape1_texture8_6514_2108.png": {
+        "shape_class": 1,
+        "texture_class": 8
+    },
+    "shape1_texture9_7098_3690.png": {
+        "shape_class": 1,
+        "texture_class": 9
+    },
+    "shape1_texture9_3744_2872.png": {
+        "shape_class": 1,
+        "texture_class": 9
+    },
+    "shape1_texture9_6749_3670.png": {
+        "shape_class": 1,
+        "texture_class": 9
+    },
+    "shape1_texture9_137_7164.png": {
+        "shape_class": 1,
+        "texture_class": 9
+    },
+    "shape1_texture9_5517_6677.png": {
+        "shape_class": 1,
+        "texture_class": 9
+    },
+    "shape2_texture0_6092_3397.png": {
+        "shape_class": 2,
+        "texture_class": 0
+    },
+    "shape2_texture0_1754_7079.png": {
+        "shape_class": 2,
+        "texture_class": 0
+    },
+    "shape2_texture0_2591_1553.png": {
+        "shape_class": 2,
+        "texture_class": 0
+    },
+    "shape2_texture0_5796_2848.png": {
+        "shape_class": 2,
+        "texture_class": 0
+    },
+    "shape2_texture0_4587_3552.png": {
+        "shape_class": 2,
+        "texture_class": 0
+    },
+    "shape2_texture1_2196_7851.png": {
+        "shape_class": 2,
+        "texture_class": 1
+    },
+    "shape2_texture1_1754_7469.png": {
+        "shape_class": 2,
+        "texture_class": 1
+    },
+    "shape2_texture1_4065_2433.png": {
+        "shape_class": 2,
+        "texture_class": 1
+    },
+    "shape2_texture1_2308_336.png": {
+        "shape_class": 2,
+        "texture_class": 1
+    },
+    "shape2_texture1_653_1210.png": {
+        "shape_class": 2,
+        "texture_class": 1
+    },
+    "shape2_texture3_6354_3298.png": {
+        "shape_class": 2,
+        "texture_class": 3
+    },
+    "shape2_texture3_665_4229.png": {
+        "shape_class": 2,
+        "texture_class": 3
+    },
+    "shape2_texture3_1148_2560.png": {
+        "shape_class": 2,
+        "texture_class": 3
+    },
+    "shape2_texture3_7161_5787.png": {
+        "shape_class": 2,
+        "texture_class": 3
+    },
+    "shape2_texture3_5989_4975.png": {
+        "shape_class": 2,
+        "texture_class": 3
+    },
+    "shape2_texture4_3360_7346.png": {
+        "shape_class": 2,
+        "texture_class": 4
+    },
+    "shape2_texture4_3048_3503.png": {
+        "shape_class": 2,
+        "texture_class": 4
+    },
+    "shape2_texture4_7045_4199.png": {
+        "shape_class": 2,
+        "texture_class": 4
+    },
+    "shape2_texture4_786_5469.png": {
+        "shape_class": 2,
+        "texture_class": 4
+    },
+    "shape2_texture4_1754_649.png": {
+        "shape_class": 2,
+        "texture_class": 4
+    },
+    "shape2_texture5_7714_5337.png": {
+        "shape_class": 2,
+        "texture_class": 5
+    },
+    "shape2_texture5_5989_6251.png": {
+        "shape_class": 2,
+        "texture_class": 5
+    },
+    "shape2_texture5_2298_1702.png": {
+        "shape_class": 2,
+        "texture_class": 5
+    },
+    "shape2_texture5_4714_6375.png": {
+        "shape_class": 2,
+        "texture_class": 5
+    },
+    "shape2_texture5_3048_7130.png": {
+        "shape_class": 2,
+        "texture_class": 5
+    },
+    "shape2_texture6_4587_5014.png": {
+        "shape_class": 2,
+        "texture_class": 6
+    },
+    "shape2_texture6_3229_355.png": {
+        "shape_class": 2,
+        "texture_class": 6
+    },
+    "shape2_texture6_5989_6267.png": {
+        "shape_class": 2,
+        "texture_class": 6
+    },
+    "shape2_texture6_6893_1481.png": {
+        "shape_class": 2,
+        "texture_class": 6
+    },
+    "shape2_texture6_3856_769.png": {
+        "shape_class": 2,
+        "texture_class": 6
+    },
+    "shape2_texture7_3360_1372.png": {
+        "shape_class": 2,
+        "texture_class": 7
+    },
+    "shape2_texture7_7045_6720.png": {
+        "shape_class": 2,
+        "texture_class": 7
+    },
+    "shape2_texture7_158_4903.png": {
+        "shape_class": 2,
+        "texture_class": 7
+    },
+    "shape2_texture7_3856_5128.png": {
+        "shape_class": 2,
+        "texture_class": 7
+    },
+    "shape2_texture7_2783_4915.png": {
+        "shape_class": 2,
+        "texture_class": 7
+    },
+    "shape2_texture8_4465_1777.png": {
+        "shape_class": 2,
+        "texture_class": 8
+    },
+    "shape2_texture8_5824_1425.png": {
+        "shape_class": 2,
+        "texture_class": 8
+    },
+    "shape2_texture8_5183_362.png": {
+        "shape_class": 2,
+        "texture_class": 8
+    },
+    "shape2_texture8_2196_7609.png": {
+        "shape_class": 2,
+        "texture_class": 8
+    },
+    "shape2_texture8_7161_4070.png": {
+        "shape_class": 2,
+        "texture_class": 8
+    },
+    "shape2_texture9_4587_6283.png": {
+        "shape_class": 2,
+        "texture_class": 9
+    },
+    "shape2_texture9_4366_3690.png": {
+        "shape_class": 2,
+        "texture_class": 9
+    },
+    "shape2_texture9_7045_3983.png": {
+        "shape_class": 2,
+        "texture_class": 9
+    },
+    "shape2_texture9_5994_5142.png": {
+        "shape_class": 2,
+        "texture_class": 9
+    },
+    "shape2_texture9_5824_6660.png": {
+        "shape_class": 2,
+        "texture_class": 9
+    },
+    "shape3_texture0_416_5930.png": {
+        "shape_class": 3,
+        "texture_class": 0
+    },
+    "shape3_texture0_4609_3923.png": {
+        "shape_class": 3,
+        "texture_class": 0
+    },
+    "shape3_texture0_373_6087.png": {
+        "shape_class": 3,
+        "texture_class": 0
+    },
+    "shape3_texture0_3497_894.png": {
+        "shape_class": 3,
+        "texture_class": 0
+    },
+    "shape3_texture0_4335_1389.png": {
+        "shape_class": 3,
+        "texture_class": 0
+    },
+    "shape3_texture1_4975_6909.png": {
+        "shape_class": 3,
+        "texture_class": 1
+    },
+    "shape3_texture1_4229_7469.png": {
+        "shape_class": 3,
+        "texture_class": 1
+    },
+    "shape3_texture1_2506_7098.png": {
+        "shape_class": 3,
+        "texture_class": 1
+    },
+    "shape3_texture1_856_4107.png": {
+        "shape_class": 3,
+        "texture_class": 1
+    },
+    "shape3_texture1_4821_5256.png": {
+        "shape_class": 3,
+        "texture_class": 1
+    },
+    "shape3_texture2_4463_4713.png": {
+        "shape_class": 3,
+        "texture_class": 2
+    },
+    "shape3_texture2_3298_2308.png": {
+        "shape_class": 3,
+        "texture_class": 2
+    },
+    "shape3_texture2_5346_2298.png": {
+        "shape_class": 3,
+        "texture_class": 2
+    },
+    "shape3_texture2_4229_3048.png": {
+        "shape_class": 3,
+        "texture_class": 2
+    },
+    "shape3_texture2_2360_5043.png": {
+        "shape_class": 3,
+        "texture_class": 2
+    },
+    "shape3_texture4_4473_983.png": {
+        "shape_class": 3,
+        "texture_class": 4
+    },
+    "shape3_texture4_5386_6450.png": {
+        "shape_class": 3,
+        "texture_class": 4
+    },
+    "shape3_texture4_4975_1185.png": {
+        "shape_class": 3,
+        "texture_class": 4
+    },
+    "shape3_texture4_385_7445.png": {
+        "shape_class": 3,
+        "texture_class": 4
+    },
+    "shape3_texture4_3208_4199.png": {
+        "shape_class": 3,
+        "texture_class": 4
+    },
+    "shape3_texture5_4473_7040.png": {
+        "shape_class": 3,
+        "texture_class": 5
+    },
+    "shape3_texture5_1949_1702.png": {
+        "shape_class": 3,
+        "texture_class": 5
+    },
+    "shape3_texture5_3400_6125.png": {
+        "shape_class": 3,
+        "texture_class": 5
+    },
+    "shape3_texture5_536_4353.png": {
+        "shape_class": 3,
+        "texture_class": 5
+    },
+    "shape3_texture5_4168_7972.png": {
+        "shape_class": 3,
+        "texture_class": 5
+    },
+    "shape3_texture6_1946_3611.png": {
+        "shape_class": 3,
+        "texture_class": 6
+    },
+    "shape3_texture6_2774_6666.png": {
+        "shape_class": 3,
+        "texture_class": 6
+    },
+    "shape3_texture6_5346_2324.png": {
+        "shape_class": 3,
+        "texture_class": 6
+    },
+    "shape3_texture6_1384_7076.png": {
+        "shape_class": 3,
+        "texture_class": 6
+    },
+    "shape3_texture6_4023_412.png": {
+        "shape_class": 3,
+        "texture_class": 6
+    },
+    "shape3_texture7_536_4238.png": {
+        "shape_class": 3,
+        "texture_class": 7
+    },
+    "shape3_texture7_1384_4210.png": {
+        "shape_class": 3,
+        "texture_class": 7
+    },
+    "shape3_texture7_7497_7102.png": {
+        "shape_class": 3,
+        "texture_class": 7
+    },
+    "shape3_texture7_2311_6896.png": {
+        "shape_class": 3,
+        "texture_class": 7
+    },
+    "shape3_texture7_2360_1083.png": {
+        "shape_class": 3,
+        "texture_class": 7
+    },
+    "shape3_texture8_6635_5573.png": {
+        "shape_class": 3,
+        "texture_class": 8
+    },
+    "shape3_texture8_4975_1777.png": {
+        "shape_class": 3,
+        "texture_class": 8
+    },
+    "shape3_texture8_4335_6916.png": {
+        "shape_class": 3,
+        "texture_class": 8
+    },
+    "shape3_texture8_2506_4070.png": {
+        "shape_class": 3,
+        "texture_class": 8
+    },
+    "shape3_texture8_3307_3150.png": {
+        "shape_class": 3,
+        "texture_class": 8
+    },
+    "shape3_texture9_4229_2834.png": {
+        "shape_class": 3,
+        "texture_class": 9
+    },
+    "shape3_texture9_7176_3303.png": {
+        "shape_class": 3,
+        "texture_class": 9
+    },
+    "shape3_texture9_4907_6492.png": {
+        "shape_class": 3,
+        "texture_class": 9
+    },
+    "shape3_texture9_385_6310.png": {
+        "shape_class": 3,
+        "texture_class": 9
+    },
+    "shape3_texture9_3220_3978.png": {
+        "shape_class": 3,
+        "texture_class": 9
+    },
+    "shape4_texture0_6262_3768.png": {
+        "shape_class": 4,
+        "texture_class": 0
+    },
+    "shape4_texture0_4497_7079.png": {
+        "shape_class": 4,
+        "texture_class": 0
+    },
+    "shape4_texture0_649_4871.png": {
+        "shape_class": 4,
+        "texture_class": 0
+    },
+    "shape4_texture0_6737_1553.png": {
+        "shape_class": 4,
+        "texture_class": 0
+    },
+    "shape4_texture0_4315_5563.png": {
+        "shape_class": 4,
+        "texture_class": 0
+    },
+    "shape4_texture1_4315_625.png": {
+        "shape_class": 4,
+        "texture_class": 1
+    },
+    "shape4_texture1_5514_1374.png": {
+        "shape_class": 4,
+        "texture_class": 1
+    },
+    "shape4_texture1_7940_4962.png": {
+        "shape_class": 4,
+        "texture_class": 1
+    },
+    "shape4_texture1_3472_4988.png": {
+        "shape_class": 4,
+        "texture_class": 1
+    },
+    "shape4_texture1_7858_5709.png": {
+        "shape_class": 4,
+        "texture_class": 1
+    },
+    "shape4_texture2_7346_1678.png": {
+        "shape_class": 4,
+        "texture_class": 2
+    },
+    "shape4_texture2_817_2508.png": {
+        "shape_class": 4,
+        "texture_class": 2
+    },
+    "shape4_texture2_5469_6092.png": {
+        "shape_class": 4,
+        "texture_class": 2
+    },
+    "shape4_texture2_7960_5476.png": {
+        "shape_class": 4,
+        "texture_class": 2
+    },
+    "shape4_texture2_1410_7045.png": {
+        "shape_class": 4,
+        "texture_class": 2
+    },
+    "shape4_texture3_5514_1946.png": {
+        "shape_class": 4,
+        "texture_class": 3
+    },
+    "shape4_texture3_5260_4609.png": {
+        "shape_class": 4,
+        "texture_class": 3
+    },
+    "shape4_texture3_3882_2681.png": {
+        "shape_class": 4,
+        "texture_class": 3
+    },
+    "shape4_texture3_5623_2536.png": {
+        "shape_class": 4,
+        "texture_class": 3
+    },
+    "shape4_texture3_7858_4187.png": {
+        "shape_class": 4,
+        "texture_class": 3
+    },
+    "shape4_texture5_2910_1732.png": {
+        "shape_class": 4,
+        "texture_class": 5
+    },
+    "shape4_texture5_7858_7376.png": {
+        "shape_class": 4,
+        "texture_class": 5
+    },
+    "shape4_texture5_7346_7413.png": {
+        "shape_class": 4,
+        "texture_class": 5
+    },
+    "shape4_texture5_5469_7040.png": {
+        "shape_class": 4,
+        "texture_class": 5
+    },
+    "shape4_texture5_7960_3204.png": {
+        "shape_class": 4,
+        "texture_class": 5
+    },
+    "shape4_texture6_3074_4798.png": {
+        "shape_class": 4,
+        "texture_class": 6
+    },
+    "shape4_texture6_5514_580.png": {
+        "shape_class": 4,
+        "texture_class": 6
+    },
+    "shape4_texture6_7940_1481.png": {
+        "shape_class": 4,
+        "texture_class": 6
+    },
+    "shape4_texture6_7346_6800.png": {
+        "shape_class": 4,
+        "texture_class": 6
+    },
+    "shape4_texture6_3803_2068.png": {
+        "shape_class": 4,
+        "texture_class": 6
+    },
+    "shape4_texture7_1398_7815.png": {
+        "shape_class": 4,
+        "texture_class": 7
+    },
+    "shape4_texture7_3503_5128.png": {
+        "shape_class": 4,
+        "texture_class": 7
+    },
+    "shape4_texture7_4497_5717.png": {
+        "shape_class": 4,
+        "texture_class": 7
+    },
+    "shape4_texture7_144_1372.png": {
+        "shape_class": 4,
+        "texture_class": 7
+    },
+    "shape4_texture7_6737_7102.png": {
+        "shape_class": 4,
+        "texture_class": 7
+    },
+    "shape4_texture8_692_362.png": {
+        "shape_class": 4,
+        "texture_class": 8
+    },
+    "shape4_texture8_2089_3922.png": {
+        "shape_class": 4,
+        "texture_class": 8
+    },
+    "shape4_texture8_3890_4592.png": {
+        "shape_class": 4,
+        "texture_class": 8
+    },
+    "shape4_texture8_756_1735.png": {
+        "shape_class": 4,
+        "texture_class": 8
+    },
+    "shape4_texture8_1410_3525.png": {
+        "shape_class": 4,
+        "texture_class": 8
+    },
+    "shape4_texture9_1398_2872.png": {
+        "shape_class": 4,
+        "texture_class": 9
+    },
+    "shape4_texture9_3503_2356.png": {
+        "shape_class": 4,
+        "texture_class": 9
+    },
+    "shape4_texture9_1300_3983.png": {
+        "shape_class": 4,
+        "texture_class": 9
+    },
+    "shape4_texture9_2089_1572.png": {
+        "shape_class": 4,
+        "texture_class": 9
+    },
+    "shape4_texture9_3142_4956.png": {
+        "shape_class": 4,
+        "texture_class": 9
+    },
+    "shape5_texture0_2130_3005.png": {
+        "shape_class": 5,
+        "texture_class": 0
+    },
+    "shape5_texture0_4290_1748.png": {
+        "shape_class": 5,
+        "texture_class": 0
+    },
+    "shape5_texture0_7541_752.png": {
+        "shape_class": 5,
+        "texture_class": 0
+    },
+    "shape5_texture0_5581_3437.png": {
+        "shape_class": 5,
+        "texture_class": 0
+    },
+    "shape5_texture0_5695_3552.png": {
+        "shape_class": 5,
+        "texture_class": 0
+    },
+    "shape5_texture1_7541_61.png": {
+        "shape_class": 5,
+        "texture_class": 1
+    },
+    "shape5_texture1_6019_7851.png": {
+        "shape_class": 5,
+        "texture_class": 1
+    },
+    "shape5_texture1_7706_2899.png": {
+        "shape_class": 5,
+        "texture_class": 1
+    },
+    "shape5_texture1_6375_3548.png": {
+        "shape_class": 5,
+        "texture_class": 1
+    },
+    "shape5_texture1_2734_1904.png": {
+        "shape_class": 5,
+        "texture_class": 1
+    },
+    "shape5_texture2_2507_5796.png": {
+        "shape_class": 5,
+        "texture_class": 2
+    },
+    "shape5_texture2_7754_786.png": {
+        "shape_class": 5,
+        "texture_class": 2
+    },
+    "shape5_texture2_1818_2591.png": {
+        "shape_class": 5,
+        "texture_class": 2
+    },
+    "shape5_texture2_6019_3925.png": {
+        "shape_class": 5,
+        "texture_class": 2
+    },
+    "shape5_texture2_7706_4065.png": {
+        "shape_class": 5,
+        "texture_class": 2
+    },
+    "shape5_texture3_2507_5787.png": {
+        "shape_class": 5,
+        "texture_class": 3
+    },
+    "shape5_texture3_6125_6755.png": {
+        "shape_class": 5,
+        "texture_class": 3
+    },
+    "shape5_texture3_5324_2681.png": {
+        "shape_class": 5,
+        "texture_class": 3
+    },
+    "shape5_texture3_2607_5386.png": {
+        "shape_class": 5,
+        "texture_class": 3
+    },
+    "shape5_texture3_4353_3220.png": {
+        "shape_class": 5,
+        "texture_class": 3
+    },
+    "shape5_texture4_5581_7445.png": {
+        "shape_class": 5,
+        "texture_class": 4
+    },
+    "shape5_texture4_7403_983.png": {
+        "shape_class": 5,
+        "texture_class": 4
+    },
+    "shape5_texture4_4532_817.png": {
+        "shape_class": 5,
+        "texture_class": 4
+    },
+    "shape5_texture4_259_682.png": {
+        "shape_class": 5,
+        "texture_class": 4
+    },
+    "shape5_texture4_1702_3472.png": {
+        "shape_class": 5,
+        "texture_class": 4
+    },
+    "shape5_texture6_1498_3706.png": {
+        "shape_class": 5,
+        "texture_class": 6
+    },
+    "shape5_texture6_447_2201.png": {
+        "shape_class": 5,
+        "texture_class": 6
+    },
+    "shape5_texture6_4353_3587.png": {
+        "shape_class": 5,
+        "texture_class": 6
+    },
+    "shape5_texture6_6125_5857.png": {
+        "shape_class": 5,
+        "texture_class": 6
+    },
+    "shape5_texture6_543_6756.png": {
+        "shape_class": 5,
+        "texture_class": 6
+    },
+    "shape5_texture7_1027_1884.png": {
+        "shape_class": 5,
+        "texture_class": 7
+    },
+    "shape5_texture7_6932_1482.png": {
+        "shape_class": 5,
+        "texture_class": 7
+    },
+    "shape5_texture7_3897_5355.png": {
+        "shape_class": 5,
+        "texture_class": 7
+    },
+    "shape5_texture7_6251_3140.png": {
+        "shape_class": 5,
+        "texture_class": 7
+    },
+    "shape5_texture7_7776_1391.png": {
+        "shape_class": 5,
+        "texture_class": 7
+    },
+    "shape5_texture8_6251_55.png": {
+        "shape_class": 5,
+        "texture_class": 8
+    },
+    "shape5_texture8_4290_638.png": {
+        "shape_class": 5,
+        "texture_class": 8
+    },
+    "shape5_texture8_2130_1777.png": {
+        "shape_class": 5,
+        "texture_class": 8
+    },
+    "shape5_texture8_7376_2108.png": {
+        "shape_class": 5,
+        "texture_class": 8
+    },
+    "shape5_texture8_1818_6707.png": {
+        "shape_class": 5,
+        "texture_class": 8
+    },
+    "shape5_texture9_3392_6874.png": {
+        "shape_class": 5,
+        "texture_class": 9
+    },
+    "shape5_texture9_259_6310.png": {
+        "shape_class": 5,
+        "texture_class": 9
+    },
+    "shape5_texture9_7413_6283.png": {
+        "shape_class": 5,
+        "texture_class": 9
+    },
+    "shape5_texture9_7410_7164.png": {
+        "shape_class": 5,
+        "texture_class": 9
+    },
+    "shape5_texture9_531_5828.png": {
+        "shape_class": 5,
+        "texture_class": 9
+    },
+    "shape6_texture0_4498_2027.png": {
+        "shape_class": 6,
+        "texture_class": 0
+    },
+    "shape6_texture0_3182_3308.png": {
+        "shape_class": 6,
+        "texture_class": 0
+    },
+    "shape6_texture0_4796_4535.png": {
+        "shape_class": 6,
+        "texture_class": 0
+    },
+    "shape6_texture0_7076_1987.png": {
+        "shape_class": 6,
+        "texture_class": 0
+    },
+    "shape6_texture0_6381_6439.png": {
+        "shape_class": 6,
+        "texture_class": 0
+    },
+    "shape6_texture1_7198_7851.png": {
+        "shape_class": 6,
+        "texture_class": 1
+    },
+    "shape6_texture1_3587_6972.png": {
+        "shape_class": 6,
+        "texture_class": 1
+    },
+    "shape6_texture1_443_5400.png": {
+        "shape_class": 6,
+        "texture_class": 1
+    },
+    "shape6_texture1_4796_6749.png": {
+        "shape_class": 6,
+        "texture_class": 1
+    },
+    "shape6_texture1_5857_3035.png": {
+        "shape_class": 6,
+        "texture_class": 1
+    },
+    "shape6_texture2_7076_2298.png": {
+        "shape_class": 6,
+        "texture_class": 2
+    },
+    "shape6_texture2_5352_7714.png": {
+        "shape_class": 6,
+        "texture_class": 2
+    },
+    "shape6_texture2_2726_1963.png": {
+        "shape_class": 6,
+        "texture_class": 2
+    },
+    "shape6_texture2_443_5796.png": {
+        "shape_class": 6,
+        "texture_class": 2
+    },
+    "shape6_texture2_6950_7590.png": {
+        "shape_class": 6,
+        "texture_class": 2
+    },
+    "shape6_texture3_3182_5386.png": {
+        "shape_class": 6,
+        "texture_class": 3
+    },
+    "shape6_texture3_6936_3400.png": {
+        "shape_class": 6,
+        "texture_class": 3
+    },
+    "shape6_texture3_7198_4473.png": {
+        "shape_class": 6,
+        "texture_class": 3
+    },
+    "shape6_texture3_2464_1622.png": {
+        "shape_class": 6,
+        "texture_class": 3
+    },
+    "shape6_texture3_412_3208.png": {
+        "shape_class": 6,
+        "texture_class": 3
+    },
+    "shape6_texture4_1932_7931.png": {
+        "shape_class": 6,
+        "texture_class": 4
+    },
+    "shape6_texture4_2273_206.png": {
+        "shape_class": 6,
+        "texture_class": 4
+    },
+    "shape6_texture4_6936_3352.png": {
+        "shape_class": 6,
+        "texture_class": 4
+    },
+    "shape6_texture4_3910_7960.png": {
+        "shape_class": 6,
+        "texture_class": 4
+    },
+    "shape6_texture4_2324_3142.png": {
+        "shape_class": 6,
+        "texture_class": 4
+    },
+    "shape6_texture5_2726_7402.png": {
+        "shape_class": 6,
+        "texture_class": 5
+    },
+    "shape6_texture5_2068_4290.png": {
+        "shape_class": 6,
+        "texture_class": 5
+    },
+    "shape6_texture5_3848_2267.png": {
+        "shape_class": 6,
+        "texture_class": 5
+    },
+    "shape6_texture5_3611_1702.png": {
+        "shape_class": 6,
+        "texture_class": 5
+    },
+    "shape6_texture5_2464_6900.png": {
+        "shape_class": 6,
+        "texture_class": 5
+    },
+    "shape6_texture7_7076_4142.png": {
+        "shape_class": 6,
+        "texture_class": 7
+    },
+    "shape6_texture7_5857_7909.png": {
+        "shape_class": 6,
+        "texture_class": 7
+    },
+    "shape6_texture7_6267_5791.png": {
+        "shape_class": 6,
+        "texture_class": 7
+    },
+    "shape6_texture7_6800_4238.png": {
+        "shape_class": 6,
+        "texture_class": 7
+    },
+    "shape6_texture7_3706_395.png": {
+        "shape_class": 6,
+        "texture_class": 7
+    },
+    "shape6_texture8_3706_174.png": {
+        "shape_class": 6,
+        "texture_class": 8
+    },
+    "shape6_texture8_355_3135.png": {
+        "shape_class": 6,
+        "texture_class": 8
+    },
+    "shape6_texture8_3910_2779.png": {
+        "shape_class": 6,
+        "texture_class": 8
+    },
+    "shape6_texture8_2464_3922.png": {
+        "shape_class": 6,
+        "texture_class": 8
+    },
+    "shape6_texture8_6823_1425.png": {
+        "shape_class": 6,
+        "texture_class": 8
+    },
+    "shape6_texture9_360_5392.png": {
+        "shape_class": 6,
+        "texture_class": 9
+    },
+    "shape6_texture9_3661_6677.png": {
+        "shape_class": 6,
+        "texture_class": 9
+    },
+    "shape6_texture9_3587_2104.png": {
+        "shape_class": 6,
+        "texture_class": 9
+    },
+    "shape6_texture9_3738_3670.png": {
+        "shape_class": 6,
+        "texture_class": 9
+    },
+    "shape6_texture9_580_6283.png": {
+        "shape_class": 6,
+        "texture_class": 9
+    },
+    "shape7_texture0_1519_2518.png": {
+        "shape_class": 7,
+        "texture_class": 0
+    },
+    "shape7_texture0_4142_5530.png": {
+        "shape_class": 7,
+        "texture_class": 0
+    },
+    "shape7_texture0_1342_5563.png": {
+        "shape_class": 7,
+        "texture_class": 0
+    },
+    "shape7_texture0_1884_3308.png": {
+        "shape_class": 7,
+        "texture_class": 0
+    },
+    "shape7_texture0_7815_2838.png": {
+        "shape_class": 7,
+        "texture_class": 0
+    },
+    "shape7_texture1_79_1221.png": {
+        "shape_class": 7,
+        "texture_class": 1
+    },
+    "shape7_texture1_3682_4107.png": {
+        "shape_class": 7,
+        "texture_class": 1
+    },
+    "shape7_texture1_7581_7129.png": {
+        "shape_class": 7,
+        "texture_class": 1
+    },
+    "shape7_texture1_7276_1657.png": {
+        "shape_class": 7,
+        "texture_class": 1
+    },
+    "shape7_texture1_1519_7469.png": {
+        "shape_class": 7,
+        "texture_class": 1
+    },
+    "shape7_texture2_1716_3641.png": {
+        "shape_class": 7,
+        "texture_class": 2
+    },
+    "shape7_texture2_395_158.png": {
+        "shape_class": 7,
+        "texture_class": 2
+    },
+    "shape7_texture2_79_6901.png": {
+        "shape_class": 7,
+        "texture_class": 2
+    },
+    "shape7_texture2_7730_4714.png": {
+        "shape_class": 7,
+        "texture_class": 2
+    },
+    "shape7_texture2_4628_7714.png": {
+        "shape_class": 7,
+        "texture_class": 2
+    },
+    "shape7_texture3_5791_6635.png": {
+        "shape_class": 7,
+        "texture_class": 3
+    },
+    "shape7_texture3_4142_5346.png": {
+        "shape_class": 7,
+        "texture_class": 3
+    },
+    "shape7_texture3_5436_2311.png": {
+        "shape_class": 7,
+        "texture_class": 3
+    },
+    "shape7_texture3_3140_4335.png": {
+        "shape_class": 7,
+        "texture_class": 3
+    },
+    "shape7_texture3_395_6755.png": {
+        "shape_class": 7,
+        "texture_class": 3
+    },
+    "shape7_texture4_2842_2089.png": {
+        "shape_class": 7,
+        "texture_class": 4
+    },
+    "shape7_texture4_7276_144.png": {
+        "shape_class": 7,
+        "texture_class": 4
+    },
+    "shape7_texture4_1619_5469.png": {
+        "shape_class": 7,
+        "texture_class": 4
+    },
+    "shape7_texture4_6720_6943.png": {
+        "shape_class": 7,
+        "texture_class": 4
+    },
+    "shape7_texture4_5232_3598.png": {
+        "shape_class": 7,
+        "texture_class": 4
+    },
+    "shape7_texture5_2826_2507.png": {
+        "shape_class": 7,
+        "texture_class": 5
+    },
+    "shape7_texture5_79_7376.png": {
+        "shape_class": 7,
+        "texture_class": 5
+    },
+    "shape7_texture5_4628_3788.png": {
+        "shape_class": 7,
+        "texture_class": 5
+    },
+    "shape7_texture5_4142_6239.png": {
+        "shape_class": 7,
+        "texture_class": 5
+    },
+    "shape7_texture5_7569_4934.png": {
+        "shape_class": 7,
+        "texture_class": 5
+    },
+    "shape7_texture6_6673_3848.png": {
+        "shape_class": 7,
+        "texture_class": 6
+    },
+    "shape7_texture6_1329_6666.png": {
+        "shape_class": 7,
+        "texture_class": 6
+    },
+    "shape7_texture6_2842_6800.png": {
+        "shape_class": 7,
+        "texture_class": 6
+    },
+    "shape7_texture6_4834_7198.png": {
+        "shape_class": 7,
+        "texture_class": 6
+    },
+    "shape7_texture6_1619_5408.png": {
+        "shape_class": 7,
+        "texture_class": 6
+    },
+    "shape7_texture8_4628_4495.png": {
+        "shape_class": 7,
+        "texture_class": 8
+    },
+    "shape7_texture8_1329_362.png": {
+        "shape_class": 7,
+        "texture_class": 8
+    },
+    "shape7_texture8_7815_3922.png": {
+        "shape_class": 7,
+        "texture_class": 8
+    },
+    "shape7_texture8_4142_7234.png": {
+        "shape_class": 7,
+        "texture_class": 8
+    },
+    "shape7_texture8_2826_688.png": {
+        "shape_class": 7,
+        "texture_class": 8
+    },
+    "shape7_texture9_395_3303.png": {
+        "shape_class": 7,
+        "texture_class": 9
+    },
+    "shape7_texture9_5232_1572.png": {
+        "shape_class": 7,
+        "texture_class": 9
+    },
+    "shape7_texture9_6720_6645.png": {
+        "shape_class": 7,
+        "texture_class": 9
+    },
+    "shape7_texture9_7276_3536.png": {
+        "shape_class": 7,
+        "texture_class": 9
+    },
+    "shape7_texture9_2842_3517.png": {
+        "shape_class": 7,
+        "texture_class": 9
+    },
+    "shape8_texture0_1456_7735.png": {
+        "shape_class": 8,
+        "texture_class": 0
+    },
+    "shape8_texture0_1777_3923.png": {
+        "shape_class": 8,
+        "texture_class": 0
+    },
+    "shape8_texture0_7234_782.png": {
+        "shape_class": 8,
+        "texture_class": 0
+    },
+    "shape8_texture0_7609_6034.png": {
+        "shape_class": 8,
+        "texture_class": 0
+    },
+    "shape8_texture0_688_2870.png": {
+        "shape_class": 8,
+        "texture_class": 0
+    },
+    "shape8_texture1_4722_7851.png": {
+        "shape_class": 8,
+        "texture_class": 1
+    },
+    "shape8_texture1_5548_6972.png": {
+        "shape_class": 8,
+        "texture_class": 1
+    },
+    "shape8_texture1_3135_7098.png": {
+        "shape_class": 8,
+        "texture_class": 1
+    },
+    "shape8_texture1_1709_1221.png": {
+        "shape_class": 8,
+        "texture_class": 1
+    },
+    "shape8_texture1_4725_5424.png": {
+        "shape_class": 8,
+        "texture_class": 1
+    },
+    "shape8_texture2_3922_665.png": {
+        "shape_class": 8,
+        "texture_class": 2
+    },
+    "shape8_texture2_7609_5824.png": {
+        "shape_class": 8,
+        "texture_class": 2
+    },
+    "shape8_texture2_3311_5043.png": {
+        "shape_class": 8,
+        "texture_class": 2
+    },
+    "shape8_texture2_2232_7161.png": {
+        "shape_class": 8,
+        "texture_class": 2
+    },
+    "shape8_texture2_4495_5989.png": {
+        "shape_class": 8,
+        "texture_class": 2
+    },
+    "shape8_texture3_4495_536.png": {
+        "shape_class": 8,
+        "texture_class": 3
+    },
+    "shape8_texture3_4030_1949.png": {
+        "shape_class": 8,
+        "texture_class": 3
+    },
+    "shape8_texture3_4655_5386.png": {
+        "shape_class": 8,
+        "texture_class": 3
+    },
+    "shape8_texture3_1425_4335.png": {
+        "shape_class": 8,
+        "texture_class": 3
+    },
+    "shape8_texture3_4076_7497.png": {
+        "shape_class": 8,
+        "texture_class": 3
+    },
+    "shape8_texture4_4655_7445.png": {
+        "shape_class": 8,
+        "texture_class": 4
+    },
+    "shape8_texture4_55_692.png": {
+        "shape_class": 8,
+        "texture_class": 4
+    },
+    "shape8_texture4_3922_649.png": {
+        "shape_class": 8,
+        "texture_class": 4
+    },
+    "shape8_texture4_4076_6262.png": {
+        "shape_class": 8,
+        "texture_class": 4
+    },
+    "shape8_texture4_3135_2125.png": {
+        "shape_class": 8,
+        "texture_class": 4
+    },
+    "shape8_texture5_2232_7402.png": {
+        "shape_class": 8,
+        "texture_class": 5
+    },
+    "shape8_texture5_7532_5337.png": {
+        "shape_class": 8,
+        "texture_class": 5
+    },
+    "shape8_texture5_3135_6483.png": {
+        "shape_class": 8,
+        "texture_class": 5
+    },
+    "shape8_texture5_6447_4532.png": {
+        "shape_class": 8,
+        "texture_class": 5
+    },
+    "shape8_texture5_2779_6970.png": {
+        "shape_class": 8,
+        "texture_class": 5
+    },
+    "shape8_texture6_4592_6267.png": {
+        "shape_class": 8,
+        "texture_class": 6
+    },
+    "shape8_texture6_5649_2324.png": {
+        "shape_class": 8,
+        "texture_class": 6
+    },
+    "shape8_texture6_904_7198.png": {
+        "shape_class": 8,
+        "texture_class": 6
+    },
+    "shape8_texture6_5548_412.png": {
+        "shape_class": 8,
+        "texture_class": 6
+    },
+    "shape8_texture6_7532_2201.png": {
+        "shape_class": 8,
+        "texture_class": 6
+    },
+    "shape8_texture7_3135_1519.png": {
+        "shape_class": 8,
+        "texture_class": 7
+    },
+    "shape8_texture7_6916_5717.png": {
+        "shape_class": 8,
+        "texture_class": 7
+    },
+    "shape8_texture7_6707_5436.png": {
+        "shape_class": 8,
+        "texture_class": 7
+    },
+    "shape8_texture7_6998_6281.png": {
+        "shape_class": 8,
+        "texture_class": 7
+    },
+    "shape8_texture7_1735_5112.png": {
+        "shape_class": 8,
+        "texture_class": 7
+    },
+    "shape8_texture9_2378_410.png": {
+        "shape_class": 8,
+        "texture_class": 9
+    },
+    "shape8_texture9_2108_471.png": {
+        "shape_class": 8,
+        "texture_class": 9
+    },
+    "shape8_texture9_5649_6677.png": {
+        "shape_class": 8,
+        "texture_class": 9
+    },
+    "shape8_texture9_5573_4956.png": {
+        "shape_class": 8,
+        "texture_class": 9
+    },
+    "shape8_texture9_638_6645.png": {
+        "shape_class": 8,
+        "texture_class": 9
+    },
+    "shape9_texture0_6283_5272.png": {
+        "shape_class": 9,
+        "texture_class": 0
+    },
+    "shape9_texture0_2872_7079.png": {
+        "shape_class": 9,
+        "texture_class": 0
+    },
+    "shape9_texture0_5329_3051.png": {
+        "shape_class": 9,
+        "texture_class": 0
+    },
+    "shape9_texture0_1493_2466.png": {
+        "shape_class": 9,
+        "texture_class": 0
+    },
+    "shape9_texture0_6310_5530.png": {
+        "shape_class": 9,
+        "texture_class": 0
+    },
+    "shape9_texture1_5242_336.png": {
+        "shape_class": 9,
+        "texture_class": 1
+    },
+    "shape9_texture1_4598_3035.png": {
+        "shape_class": 9,
+        "texture_class": 1
+    },
+    "shape9_texture1_723_2899.png": {
+        "shape_class": 9,
+        "texture_class": 1
+    },
+    "shape9_texture1_1508_7098.png": {
+        "shape_class": 9,
+        "texture_class": 1
+    },
+    "shape9_texture1_7311_61.png": {
+        "shape_class": 9,
+        "texture_class": 1
+    },
+    "shape9_texture2_2356_7861.png": {
+        "shape_class": 9,
+        "texture_class": 2
+    },
+    "shape9_texture2_7314_6354.png": {
+        "shape_class": 9,
+        "texture_class": 2
+    },
+    "shape9_texture2_3536_7714.png": {
+        "shape_class": 9,
+        "texture_class": 2
+    },
+    "shape9_texture2_4598_6901.png": {
+        "shape_class": 9,
+        "texture_class": 2
+    },
+    "shape9_texture2_1493_2308.png": {
+        "shape_class": 9,
+        "texture_class": 2
+    },
+    "shape9_texture3_6645_6755.png": {
+        "shape_class": 9,
+        "texture_class": 3
+    },
+    "shape9_texture3_1022_5346.png": {
+        "shape_class": 9,
+        "texture_class": 3
+    },
+    "shape9_texture3_3917_4463.png": {
+        "shape_class": 9,
+        "texture_class": 3
+    },
+    "shape9_texture3_6677_2360.png": {
+        "shape_class": 9,
+        "texture_class": 3
+    },
+    "shape9_texture3_6747_2203.png": {
+        "shape_class": 9,
+        "texture_class": 3
+    },
+    "shape9_texture4_3473_7960.png": {
+        "shape_class": 9,
+        "texture_class": 4
+    },
+    "shape9_texture4_3690_7445.png": {
+        "shape_class": 9,
+        "texture_class": 4
+    },
+    "shape9_texture4_5828_756.png": {
+        "shape_class": 9,
+        "texture_class": 4
+    },
+    "shape9_texture4_4771_5260.png": {
+        "shape_class": 9,
+        "texture_class": 4
+    },
+    "shape9_texture4_6677_6262.png": {
+        "shape_class": 9,
+        "texture_class": 4
+    },
+    "shape9_texture5_4129_7754.png": {
+        "shape_class": 9,
+        "texture_class": 5
+    },
+    "shape9_texture5_3983_7541.png": {
+        "shape_class": 9,
+        "texture_class": 5
+    },
+    "shape9_texture5_3517_2130.png": {
+        "shape_class": 9,
+        "texture_class": 5
+    },
+    "shape9_texture5_5464_3788.png": {
+        "shape_class": 9,
+        "texture_class": 5
+    },
+    "shape9_texture5_1508_2507.png": {
+        "shape_class": 9,
+        "texture_class": 5
+    },
+    "shape9_texture6_4956_6666.png": {
+        "shape_class": 9,
+        "texture_class": 6
+    },
+    "shape9_texture6_5392_580.png": {
+        "shape_class": 9,
+        "texture_class": 6
+    },
+    "shape9_texture6_4129_4498.png": {
+        "shape_class": 9,
+        "texture_class": 6
+    },
+    "shape9_texture6_1508_3587.png": {
+        "shape_class": 9,
+        "texture_class": 6
+    },
+    "shape9_texture6_6948_4798.png": {
+        "shape_class": 9,
+        "texture_class": 6
+    },
+    "shape9_texture7_410_1482.png": {
+        "shape_class": 9,
+        "texture_class": 7
+    },
+    "shape9_texture7_3917_5436.png": {
+        "shape_class": 9,
+        "texture_class": 7
+    },
+    "shape9_texture7_6645_1083.png": {
+        "shape_class": 9,
+        "texture_class": 7
+    },
+    "shape9_texture7_2356_1884.png": {
+        "shape_class": 9,
+        "texture_class": 7
+    },
+    "shape9_texture7_5464_5112.png": {
+        "shape_class": 9,
+        "texture_class": 7
+    },
+    "shape9_texture8_3983_5573.png": {
+        "shape_class": 9,
+        "texture_class": 8
+    },
+    "shape9_texture8_471_2059.png": {
+        "shape_class": 9,
+        "texture_class": 8
+    },
+    "shape9_texture8_7147_2108.png": {
+        "shape_class": 9,
+        "texture_class": 8
+    },
+    "shape9_texture8_2674_3922.png": {
+        "shape_class": 9,
+        "texture_class": 8
+    },
+    "shape9_texture8_1937_3135.png": {
+        "shape_class": 9,
+        "texture_class": 8
+    }
+}

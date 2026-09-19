@@ -1,0 +1,50 @@
+{
+    "resnet": {
+        "grayscale": {
+            "acc": 0.968,
+            "acc_change": -0.016000000000000014,
+            "consistency": 0.966
+        },
+        "hue_rotation": {
+            "acc": 0.962,
+            "acc_change": -0.02200000000000002,
+            "consistency": 0.962
+        }
+    },
+    "vit": {
+        "grayscale": {
+            "acc": 0.96,
+            "acc_change": -0.018000000000000016,
+            "consistency": 0.964
+        },
+        "hue_rotation": {
+            "acc": 0.932,
+            "acc_change": -0.04599999999999993,
+            "consistency": 0.932
+        }
+    },
+    "clip": {
+        "grayscale": {
+            "acc": 0.952,
+            "acc_change": -0.028000000000000025,
+            "consistency": 0.964
+        },
+        "hue_rotation": {
+            "acc": 0.946,
+            "acc_change": -0.03400000000000003,
+            "consistency": 0.95
+        }
+    },
+    "clip_zeroshot": {
+        "grayscale": {
+            "acc": 0.928,
+            "acc_change": -0.019999999999999907,
+            "consistency": 0.946
+        },
+        "hue_rotation": {
+            "acc": 0.928,
+            "acc_change": -0.019999999999999907,
+            "consistency": 0.944
+        }
+    }
+}
