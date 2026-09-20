@@ -1,0 +1,14 @@
+experiment:
+  seed: 6304
+  max_epochs: 30
+  early_stopping_patience: 5
+
+optimizer:
+  type: "AdamW"
+  lr: 1.0e-4
+  weight_decay: 1.0e-4
+
+data:
+  source_batch_size: 24
+  target_batch_size: 24
+  num_classes: 7

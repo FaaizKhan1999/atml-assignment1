@@ -17,12 +17,13 @@ env/
 .env
 
 data/*/
-task-1/data/stl10_binary/
+task1/data/stl10_binary/
+shared/data/
 *.tar.gz
 *.zip
 
 checkpoints/
-task-1/checkpoints/
+task1/checkpoints/
 *.pth
 *.pt
 
