@@ -1,24 +1,24 @@
 # Task 4: Open-Set Recognition (OSR)
 
-This repository contains the implementation for Task 4, which explores Open-Set Recognition (OSR) by evaluating how well different model training strategies and post-hoc scoring functions distinguish known classes (CIFAR-10) from unknown, unseen classes (filtered CIFAR-100)[cite: 1]. The objective is to analyze the trade-offs between closed-set accuracy (CSA) and the ability to reject near and far semantic unknowns[cite: 1].
+This repository contains the implementation for Task 4, which explores Open-Set Recognition (OSR) by evaluating how well different model training strategies and post-hoc scoring functions distinguish known classes (CIFAR-10) from unknown, unseen classes (filtered CIFAR-100). The objective is to analyze the trade-offs between closed-set accuracy (CSA) and the ability to reject near and far semantic unknowns.
 
 ## Implemented Methods & Reference Literature
 
 The codebase implements a baseline classifier, strong augmentation techniques, and representation-altering methodologies to evaluate open-set rejection limits. These implementations are directly based on the following literature:
 
-*   **Vanilla Baseline & Post-hoc Scoring:** Evaluates Maximum Softmax Probability (MSP), Maximum Logit Score (MLS), Energy, and Mahalanobis distance on a standard ResNet-18[cite: 1].
-    *   *Hendrycks and Gimpel (2017)*: Motivates the baseline maximum-softmax scoring (MSP)[cite: 1].
-    *   *Liu et al. (2020)*: Provides the mathematical foundation for the Energy-based score using all classifier logits[cite: 1].
-*   **GCSC (Good Closed-Set Classifier):** Uses `RandAugment` to test if improving known-class generalization inherently improves unknown rejection[cite: 1].
-    *   *Vaze et al. (2022)*: Explores the relationship between closed-set classifier quality and Maximum Logit Score (MLS)[cite: 1].
-*   **PROSER (Placeholder Learning):** Appends dummy classifiers and utilizes manifold mixup between known classes to synthesize proxy data placeholders[cite: 1]. 
-    *   *Zhou et al. (2021)*: Provides the architecture and loss functions for learning classifier and data placeholders for OSR[cite: 1].
-*   **RPL (Reciprocal Point Learning) [Optional Extension]:** Learns what each class is *not* by pushing features away from learned reciprocal points and applying open-space regularization[cite: 1].
-    *   *Chen et al. (2020)*: Introduces reciprocal points to bound the known feature space[cite: 1].
+*   **Vanilla Baseline & Post-hoc Scoring:** Evaluates Maximum Softmax Probability (MSP), Maximum Logit Score (MLS), Energy, and Mahalanobis distance on a standard ResNet-18.
+    *   *Hendrycks and Gimpel (2017)*: Motivates the baseline maximum-softmax scoring (MSP).
+    *   *Liu et al. (2020)*: Provides the mathematical foundation for the Energy-based score using all classifier logits.
+*   **GCSC (Good Closed-Set Classifier):** Uses `RandAugment` to test if improving known-class generalization inherently improves unknown rejection.
+    *   *Vaze et al. (2022)*: Explores the relationship between closed-set classifier quality and Maximum Logit Score (MLS).
+*   **PROSER (Placeholder Learning):** Appends dummy classifiers and utilizes manifold mixup between known classes to synthesize proxy data placeholders. 
+    *   *Zhou et al. (2021)*: Provides the architecture and loss functions for learning classifier and data placeholders for OSR.
+*   **RPL (Reciprocal Point Learning):** Learns what each class is *not* by pushing features away from learned reciprocal points and applying open-space regularization.
+    *   *Chen et al. (2020)*: Introduces reciprocal points to bound the known feature space.
 
 ## Repository Structure
 
-The codebase isolates dataset construction, model training, score extraction, and final evaluation so that all metrics are computed on identical, reproducible splits[cite: 1, 3].
+The codebase isolates dataset construction, model training, score extraction, and final evaluation so that all metrics are computed on identical, reproducible splits.
 
 ```text
 task4/
