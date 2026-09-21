@@ -1,0 +1,15 @@
+method: "proser"
+num_classes: 15 # 10 CIFAR-10 classes + 5 dummy classifiers
+augmentation: "standard"
+
+epochs: 50
+optimizer:
+  type: "SGD"
+  lr: 0.001
+  momentum: 0.9
+  weight_decay: 0.0005
+  scheduler: "cosine"
+
+proser:
+  beta: 1.0
+  gamma: 0.1

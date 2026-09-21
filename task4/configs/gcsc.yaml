@@ -1,0 +1,3 @@
+method: "gcsc"
+num_classes: 10
+augmentation: "randaugment"

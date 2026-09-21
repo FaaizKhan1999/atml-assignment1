@@ -16,6 +16,7 @@ venv/
 env/
 .env
 
+data_cache/
 data/*/
 task1/data/stl10_binary/
 shared/data/
@@ -24,6 +25,7 @@ shared/data/
 
 checkpoints/
 task1/checkpoints/
+task4/checkpoints/
 *.pth
 *.pt
 

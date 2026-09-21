@@ -1,0 +1,17 @@
+{
+"calibrated_95_rejection_threshold_tau": -5.8116,
+"near_unknown_failures": [
+  { "true_class": "wolf", "predicted_as": "dog", "mls_score": -8.3052 },
+  { "true_class": "pickup_truck", "predicted_as": "truck", "mls_score": -9.9977 },
+  { "true_class": "pickup_truck", "predicted_as": "automobile", "mls_score": -7.1388 },
+  { "true_class": "leopard", "predicted_as": "cat", "mls_score": -7.3185 },
+  { "true_class": "bus", "predicted_as": "truck", "mls_score": -8.5567 }
+],
+"far_unknown_failures": [
+  { "true_class": "chair", "predicted_as": "airplane", "mls_score": -7.4270 },
+  { "true_class": "bottle", "predicted_as": "bird", "mls_score": -7.8000 },
+  { "true_class": "sunflower", "predicted_as": "dog", "mls_score": -7.7121 },
+  { "true_class": "sunflower", "predicted_as": "bird", "mls_score": -6.0740 },
+  { "true_class": "bowl", "predicted_as": "truck", "mls_score": -9.1805 }
+]
+}

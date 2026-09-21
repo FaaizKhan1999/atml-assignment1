@@ -1,0 +1,3 @@
+method: "vanilla"
+num_classes: 10
+augmentation: "standard"

@@ -1,0 +1,10 @@
+seed: 6304
+data_root: "./data_cache"
+batch_size: 128
+epochs: 100
+optimizer:
+  type: "SGD"
+  lr: 0.1
+  momentum: 0.9
+  weight_decay: 0.0005
+  scheduler: "cosine"
