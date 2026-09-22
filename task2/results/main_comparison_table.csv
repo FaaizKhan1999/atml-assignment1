@@ -1,0 +1,5 @@
+Method,Photo Val (F1),Art Val (F1),Cartoon Val (F1),Mean Source (F1),Target Acc (%),Target Macro-F1,Target Change,Separability (%)
+Source-Only,95.77,90.63,95.26,93.89,57.52,63.76,0.00,99.73
+DAN,19.11,3.59,3.13,8.61,2.04,0.57,-55.48,53.14
+DANN,10.80,8.04,6.97,8.61,4.35,1.49,-53.17,100.00
+CDAN,95.22,79.28,86.36,86.95,68.03,67.38,10.51,99.86

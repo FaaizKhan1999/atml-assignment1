@@ -1,0 +1,4 @@
+GRL Strength,Best Source F1,Target Accuracy (%),Separability (%)
+0.25,91.38,65.31,99.59
+0.5,8.89,19.45,99.59
+DANN 1.0,8.61,4.35,100.00

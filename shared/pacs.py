@@ -1,48 +1,45 @@
-import torch
 from torch.utils.data import Dataset
 from torchvision import transforms
-from PIL import Image
+from datasets import load_dataset
 
-IMAGENET_MEAN = [0.485, 0.456, 0.406]
-IMAGENET_STD = [0.229, 0.224, 0.225]
-
-def get_pacs_transforms():
-    train_transform = transforms.Compose([
-        transforms.Resize((256, 256)),
-        transforms.RandomCrop(224),
-        transforms.RandomHorizontalFlip(),
-        transforms.ToTensor(),
-        transforms.Normalize(mean=IMAGENET_MEAN, std=IMAGENET_STD),
-    ])
-
-    eval_transform = transforms.Compose([
-        transforms.Resize((256, 256)),
-        transforms.CenterCrop(224),
-        transforms.ToTensor(),
-        transforms.Normalize(mean=IMAGENET_MEAN, std=IMAGENET_STD),
-    ])
-    
-    return train_transform, eval_transform
+def get_transforms(is_train=True):
+    # Standard ImageNet normalization for ResNet18_Weights.IMAGENET1K_V1
+    normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406], 
+                                     std=[0.229, 0.224, 0.225])
+    if is_train:
+        return transforms.Compose([
+            transforms.Resize((256, 256)),
+            transforms.RandomCrop(224),
+            transforms.RandomHorizontalFlip(),
+            transforms.ToTensor(),
+            normalize
+        ])
+    else:
+        return transforms.Compose([
+            transforms.Resize((256, 256)),
+            transforms.CenterCrop(224),
+            transforms.ToTensor(),
+            normalize
+        ])
 
 class PACSDataset(Dataset):
-    def __init__(self, samples: list[dict], transform=None, domain_id: int = 0):
-        self.samples = samples
-        self.transform = transform
-        self.domain_id = domain_id
-
+    def __init__(self, indices, is_train=True):
+        """
+        Loads the HF dataset and subsets it using the provided indices.
+        """
+        self.dataset = load_dataset("flwrlabs/pacs", split="train").select(indices)
+        self.transform = get_transforms(is_train)
+        
     def __len__(self):
-        return len(self.samples)
+        return len(self.dataset)
 
-    def __getitem__(self, idx: int):
-        entry = self.samples[idx]
-        with open(entry["path"], "rb") as f:
-            image = Image.open(f).convert("RGB")
-            
-        if self.transform is not None:
+    def __getitem__(self, idx):
+        example = self.dataset[idx]
+        image = example['image'].convert('RGB')
+        label = example['label']
+        domain = example['domain']
+        
+        if self.transform:
             image = self.transform(image)
             
-        return {
-            "image": image,
-            "label": torch.tensor(entry["label"], dtype=torch.long),
-            "domain": torch.tensor(self.domain_id, dtype=torch.long),
-        }
+        return image, label, domain
