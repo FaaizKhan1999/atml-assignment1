@@ -1,0 +1,32 @@
+{
+    "ERM": {
+        "domain_separability": 0.881578947368421,
+        "delta_sharp": 0.2995789349079132,
+        "base_val_loss": 0.2696223556995392,
+        "adv_val_loss": 0.5692012906074524
+    },
+    "DAN-DG": {
+        "domain_separability": 0.7401315789473685,
+        "delta_sharp": 0.3710687756538391,
+        "base_val_loss": 0.2364610880613327,
+        "adv_val_loss": 0.607529878616333
+    },
+    "SAM 0.05": {
+        "domain_separability": 0.8651315789473685,
+        "delta_sharp": 0.11339500546455383,
+        "base_val_loss": 0.1538325846195221,
+        "adv_val_loss": 0.2672275900840759
+    },
+    "SAM 0.01": {
+        "domain_separability": 0.8848684210526315,
+        "delta_sharp": 0.2227567881345749,
+        "base_val_loss": 0.21915356814861298,
+        "adv_val_loss": 0.44191035628318787
+    },
+    "SAM 0.1": {
+        "domain_separability": 0.819078947368421,
+        "delta_sharp": 0.08192126452922821,
+        "base_val_loss": 0.2200494259595871,
+        "adv_val_loss": 0.3019706904888153
+    }
+}

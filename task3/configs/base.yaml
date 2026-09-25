@@ -1,0 +1,29 @@
+seed: 6304
+data:
+  root: "data/PACS"
+  sources: ["photo", "art_painting", "cartoon"]
+  target: "sketch"
+  batch_size_per_source: 8 # Total batch size = 24
+  num_workers: 4
+  image_size: 224
+  resize_size: 256
+
+model:
+  backbone: "resnet18"
+  pretrained: true
+  num_classes: 7
+  feature_dim: 512
+
+optimization:
+  optimizer: "AdamW"
+  lr: 0.0001
+  weight_decay: 0.0001
+  max_epochs: 30
+  early_stopping_patience: 5
+  metric_for_best: "mean_source_val_macro_f1"
+
+diagnostics:
+  separability_c: 1.0
+  separability_test_size: 0.3
+  sharpness_rho: 0.05
+  sharpness_samples_per_source: 32

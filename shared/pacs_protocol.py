@@ -1,4 +1,3 @@
-%%writefile shared/pacs_protocol.py
 import json
 from torch.utils.data import DataLoader
 from shared.pacs import PACSDataset
@@ -49,3 +48,40 @@ def get_uda_loaders(split_path="shared/splits/pacs_sketch_seed6304.json", num_wo
     steps_per_epoch = max(lengths)
     
     return uda_train_iter, source_val_loaders, steps_per_epoch
+
+class DGDataIter:
+    def __init__(self, source_loaders):
+        self.source_iters = [cycle_loader(loader) for loader in source_loaders]
+        
+    def __next__(self):
+        # Yields ONLY source batches. Sketch is completely isolated.
+        source_batches = [next(i) for i in self.source_iters]
+        return source_batches
+
+def get_dg_loaders(split_path="shared/splits/pacs_sketch_seed6304.json", num_workers=2):
+    with open(split_path, "r") as f:
+        splits = json.load(f)
+        
+    source_domains = ['photo', 'art_painting', 'cartoon']
+    
+    # Train Loaders - Strictly Source Only
+    source_train_loaders = [
+        DataLoader(PACSDataset(splits[dom]['train'], is_train=True), 
+                   batch_size=8, shuffle=True, num_workers=num_workers, drop_last=True)
+        for dom in source_domains
+    ]
+    
+    # Validation Loaders - Strictly Source Only
+    source_val_loaders = {
+        dom: DataLoader(PACSDataset(splits[dom]['val'], is_train=False), 
+                        batch_size=32, shuffle=False, num_workers=num_workers)
+        for dom in source_domains
+    }
+    
+    dg_train_iter = DGDataIter(source_train_loaders)
+    
+    # Calculate exact steps required to complete one full pass over the largest source domain
+    lengths = [len(loader) for loader in source_train_loaders]
+    steps_per_epoch = max(lengths)
+    
+    return dg_train_iter, source_val_loaders, steps_per_epoch

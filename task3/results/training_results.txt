@@ -1,0 +1,311 @@
+51.7s	67	Starting training for DAN_DG on cuda...
+81.8s	68	Epoch [1/30] - Train Loss: 0.8636 | Mean Val Macro-F1: 0.8301
+81.8s	69	   -> Photo: Acc=0.9347, F1=0.9207
+81.8s	70	   -> Art_painting: Acc=0.7762, F1=0.7564
+81.8s	71	   -> Cartoon: Acc=0.8068, F1=0.8131
+81.9s	72	[*] New best model saved to task3/checkpoints/dan_dg_best.pt
+110.4s	73	Epoch [2/30] - Train Loss: 0.5644 | Mean Val Macro-F1: 0.9104
+110.4s	74	   -> Photo: Acc=0.9644, F1=0.9570
+110.4s	75	   -> Art_painting: Acc=0.8589, F1=0.8556
+110.4s	76	   -> Cartoon: Acc=0.9172, F1=0.9187
+110.5s	77	[*] New best model saved to task3/checkpoints/dan_dg_best.pt
+139.8s	78	Epoch [3/30] - Train Loss: 0.5049 | Mean Val Macro-F1: 0.9096
+139.8s	79	   -> Photo: Acc=0.9436, F1=0.9320
+139.8s	80	   -> Art_painting: Acc=0.8637, F1=0.8638
+139.8s	81	   -> Cartoon: Acc=0.9257, F1=0.9330
+139.8s	82	[!] No improvement for 1 epoch(s).
+169.1s	83	Epoch [4/30] - Train Loss: 0.4402 | Mean Val Macro-F1: 0.9185
+169.1s	84	   -> Photo: Acc=0.9436, F1=0.9328
+169.1s	85	   -> Art_painting: Acc=0.8808, F1=0.8784
+169.1s	86	   -> Cartoon: Acc=0.9427, F1=0.9442
+169.2s	87	[*] New best model saved to task3/checkpoints/dan_dg_best.pt
+198.4s	88	Epoch [5/30] - Train Loss: 0.4493 | Mean Val Macro-F1: 0.9250
+198.4s	89	   -> Photo: Acc=0.9644, F1=0.9624
+198.4s	90	   -> Art_painting: Acc=0.8759, F1=0.8701
+198.4s	91	   -> Cartoon: Acc=0.9342, F1=0.9425
+198.5s	92	[*] New best model saved to task3/checkpoints/dan_dg_best.pt
+227.2s	93	Epoch [6/30] - Train Loss: 0.4024 | Mean Val Macro-F1: 0.9321
+227.2s	94	   -> Photo: Acc=0.9614, F1=0.9535
+227.2s	95	   -> Art_painting: Acc=0.9100, F1=0.9120
+227.2s	96	   -> Cartoon: Acc=0.9321, F1=0.9306
+227.3s	97	[*] New best model saved to task3/checkpoints/dan_dg_best.pt
+256.4s	98	Epoch [7/30] - Train Loss: 0.3799 | Mean Val Macro-F1: 0.9128
+256.4s	99	   -> Photo: Acc=0.9407, F1=0.9331
+256.4s	100	   -> Art_painting: Acc=0.8710, F1=0.8718
+256.4s	101	   -> Cartoon: Acc=0.9257, F1=0.9336
+256.4s	102	[!] No improvement for 1 epoch(s).
+285.2s	103	Epoch [8/30] - Train Loss: 0.4022 | Mean Val Macro-F1: 0.9280
+285.2s	104	   -> Photo: Acc=0.9644, F1=0.9582
+285.2s	105	   -> Art_painting: Acc=0.8881, F1=0.8839
+285.2s	106	   -> Cartoon: Acc=0.9384, F1=0.9419
+285.2s	107	[!] No improvement for 2 epoch(s).
+314.0s	108	Epoch [9/30] - Train Loss: 0.3721 | Mean Val Macro-F1: 0.9374
+314.0s	109	   -> Photo: Acc=0.9644, F1=0.9578
+314.0s	110	   -> Art_painting: Acc=0.9075, F1=0.9056
+314.0s	111	   -> Cartoon: Acc=0.9512, F1=0.9490
+314.1s	112	[*] New best model saved to task3/checkpoints/dan_dg_best.pt
+343.0s	113	Epoch [10/30] - Train Loss: 0.3698 | Mean Val Macro-F1: 0.9330
+343.0s	114	   -> Photo: Acc=0.9555, F1=0.9484
+343.0s	115	   -> Art_painting: Acc=0.8954, F1=0.8962
+343.0s	116	   -> Cartoon: Acc=0.9512, F1=0.9545
+343.0s	117	[!] No improvement for 1 epoch(s).
+371.5s	118	Epoch [11/30] - Train Loss: 0.3471 | Mean Val Macro-F1: 0.9003
+371.5s	119	   -> Photo: Acc=0.9436, F1=0.9330
+371.5s	120	   -> Art_painting: Acc=0.8564, F1=0.8576
+371.5s	121	   -> Cartoon: Acc=0.9045, F1=0.9103
+371.5s	122	[!] No improvement for 2 epoch(s).
+400.6s	123	Epoch [12/30] - Train Loss: 0.3697 | Mean Val Macro-F1: 0.9100
+400.6s	124	   -> Photo: Acc=0.9466, F1=0.9368
+400.6s	125	   -> Art_painting: Acc=0.8710, F1=0.8692
+400.6s	126	   -> Cartoon: Acc=0.9214, F1=0.9241
+400.6s	127	[!] No improvement for 3 epoch(s).
+430.6s	128	Epoch [13/30] - Train Loss: 0.3563 | Mean Val Macro-F1: 0.9330
+430.6s	129	   -> Photo: Acc=0.9555, F1=0.9478
+430.6s	130	   -> Art_painting: Acc=0.8954, F1=0.8946
+430.6s	131	   -> Cartoon: Acc=0.9512, F1=0.9567
+430.6s	132	[!] No improvement for 4 epoch(s).
+459.9s	133	Epoch [14/30] - Train Loss: 0.3337 | Mean Val Macro-F1: 0.9311
+459.9s	134	   -> Photo: Acc=0.9585, F1=0.9529
+459.9s	135	   -> Art_painting: Acc=0.8856, F1=0.8819
+459.9s	136	   -> Cartoon: Acc=0.9575, F1=0.9585
+459.9s	137	[!] No improvement for 5 epoch(s).
+459.9s	138	Early stopping triggered after 14 epochs.
+469.2s	139	Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+479.9s	140	Starting training for SAM on cuda...
+527.3s	141	Epoch [1/30] - Train Loss: 0.8264 | Mean Val Macro-F1: 0.8603
+527.3s	142	   -> Photo: Acc=0.9110, F1=0.8931
+527.3s	143	   -> Art_painting: Acc=0.8224, F1=0.8260
+527.3s	144	   -> Cartoon: Acc=0.8514, F1=0.8618
+527.4s	145	[*] New best model saved to task3/checkpoints/sam_05_best.pt
+572.6s	146	Epoch [2/30] - Train Loss: 0.2609 | Mean Val Macro-F1: 0.9245
+572.6s	147	   -> Photo: Acc=0.9585, F1=0.9488
+572.6s	148	   -> Art_painting: Acc=0.8978, F1=0.8960
+572.6s	149	   -> Cartoon: Acc=0.9214, F1=0.9287
+572.7s	150	[*] New best model saved to task3/checkpoints/sam_05_best.pt
+618.6s	151	Epoch [3/30] - Train Loss: 0.1641 | Mean Val Macro-F1: 0.9312
+618.6s	152	   -> Photo: Acc=0.9525, F1=0.9435
+618.6s	153	   -> Art_painting: Acc=0.8954, F1=0.8952
+618.6s	154	   -> Cartoon: Acc=0.9490, F1=0.9548
+618.7s	155	[*] New best model saved to task3/checkpoints/sam_05_best.pt
+663.9s	156	Epoch [4/30] - Train Loss: 0.1153 | Mean Val Macro-F1: 0.9403
+663.9s	157	   -> Photo: Acc=0.9585, F1=0.9521
+663.9s	158	   -> Art_painting: Acc=0.9124, F1=0.9132
+663.9s	159	   -> Cartoon: Acc=0.9512, F1=0.9554
+664.0s	160	[*] New best model saved to task3/checkpoints/sam_05_best.pt
+709.5s	161	Epoch [5/30] - Train Loss: 0.0798 | Mean Val Macro-F1: 0.9453
+709.5s	162	   -> Photo: Acc=0.9585, F1=0.9501
+709.5s	163	   -> Art_painting: Acc=0.9246, F1=0.9240
+709.5s	164	   -> Cartoon: Acc=0.9575, F1=0.9616
+709.6s	165	[*] New best model saved to task3/checkpoints/sam_05_best.pt
+754.9s	166	Epoch [6/30] - Train Loss: 0.0606 | Mean Val Macro-F1: 0.9451
+754.9s	167	   -> Photo: Acc=0.9614, F1=0.9546
+754.9s	168	   -> Art_painting: Acc=0.9124, F1=0.9114
+754.9s	169	   -> Cartoon: Acc=0.9660, F1=0.9695
+754.9s	170	[!] No improvement for 1 epoch(s).
+800.6s	171	Epoch [7/30] - Train Loss: 0.0503 | Mean Val Macro-F1: 0.9476
+800.6s	172	   -> Photo: Acc=0.9792, F1=0.9747
+800.6s	173	   -> Art_painting: Acc=0.9124, F1=0.9112
+800.6s	174	   -> Cartoon: Acc=0.9512, F1=0.9569
+800.7s	175	[*] New best model saved to task3/checkpoints/sam_05_best.pt
+846.7s	176	Epoch [8/30] - Train Loss: 0.0327 | Mean Val Macro-F1: 0.9422
+846.7s	177	   -> Photo: Acc=0.9674, F1=0.9599
+846.7s	178	   -> Art_painting: Acc=0.9002, F1=0.8964
+846.7s	179	   -> Cartoon: Acc=0.9660, F1=0.9702
+846.7s	180	[!] No improvement for 1 epoch(s).
+892.2s	181	Epoch [9/30] - Train Loss: 0.0298 | Mean Val Macro-F1: 0.9357
+892.2s	182	   -> Photo: Acc=0.9674, F1=0.9611
+892.2s	183	   -> Art_painting: Acc=0.9002, F1=0.8946
+892.2s	184	   -> Cartoon: Acc=0.9448, F1=0.9513
+892.2s	185	[!] No improvement for 2 epoch(s).
+938.3s	186	Epoch [10/30] - Train Loss: 0.0182 | Mean Val Macro-F1: 0.9410
+938.3s	187	   -> Photo: Acc=0.9644, F1=0.9576
+938.3s	188	   -> Art_painting: Acc=0.9027, F1=0.9015
+938.3s	189	   -> Cartoon: Acc=0.9597, F1=0.9638
+938.3s	190	[!] No improvement for 3 epoch(s).
+984.0s	191	Epoch [11/30] - Train Loss: 0.0209 | Mean Val Macro-F1: 0.9460
+984.0s	192	   -> Photo: Acc=0.9703, F1=0.9642
+984.0s	193	   -> Art_painting: Acc=0.9002, F1=0.8967
+984.0s	194	   -> Cartoon: Acc=0.9745, F1=0.9772
+984.0s	195	[!] No improvement for 4 epoch(s).
+1029.8s	196	Epoch [12/30] - Train Loss: 0.0151 | Mean Val Macro-F1: 0.9424
+1029.8s	197	   -> Photo: Acc=0.9644, F1=0.9572
+1029.8s	198	   -> Art_painting: Acc=0.9124, F1=0.9097
+1029.8s	199	   -> Cartoon: Acc=0.9554, F1=0.9603
+1029.8s	200	[!] No improvement for 5 epoch(s).
+1029.8s	201	Early stopping triggered after 12 epochs.
+1037.3s	202	Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+1047.8s	203	Starting training for SAM on cuda...
+1094.9s	204	Epoch [1/30] - Train Loss: 0.5003 | Mean Val Macro-F1: 0.8974
+1094.9s	205	   -> Photo: Acc=0.9466, F1=0.9347
+1094.9s	206	   -> Art_painting: Acc=0.8710, F1=0.8632
+1094.9s	207	   -> Cartoon: Acc=0.8875, F1=0.8944
+1095.0s	208	[*] New best model saved to task3/checkpoints/sam_01_best.pt
+1140.3s	209	Epoch [2/30] - Train Loss: 0.2189 | Mean Val Macro-F1: 0.9302
+1140.3s	210	   -> Photo: Acc=0.9674, F1=0.9606
+1140.3s	211	   -> Art_painting: Acc=0.9002, F1=0.9016
+1140.3s	212	   -> Cartoon: Acc=0.9214, F1=0.9284
+1140.4s	213	[*] New best model saved to task3/checkpoints/sam_01_best.pt
+1186.6s	214	Epoch [3/30] - Train Loss: 0.1403 | Mean Val Macro-F1: 0.9385
+1186.6s	215	   -> Photo: Acc=0.9674, F1=0.9614
+1186.6s	216	   -> Art_painting: Acc=0.9124, F1=0.9126
+1186.6s	217	   -> Cartoon: Acc=0.9342, F1=0.9415
+1186.7s	218	[*] New best model saved to task3/checkpoints/sam_01_best.pt
+1232.2s	219	Epoch [4/30] - Train Loss: 0.0974 | Mean Val Macro-F1: 0.9265
+1232.2s	220	   -> Photo: Acc=0.9466, F1=0.9385
+1232.2s	221	   -> Art_painting: Acc=0.8832, F1=0.8879
+1232.2s	222	   -> Cartoon: Acc=0.9469, F1=0.9531
+1232.2s	223	[!] No improvement for 1 epoch(s).
+1278.1s	224	Epoch [5/30] - Train Loss: 0.0738 | Mean Val Macro-F1: 0.9298
+1278.1s	225	   -> Photo: Acc=0.9407, F1=0.9274
+1278.1s	226	   -> Art_painting: Acc=0.9027, F1=0.9001
+1278.1s	227	   -> Cartoon: Acc=0.9575, F1=0.9620
+1278.1s	228	[!] No improvement for 2 epoch(s).
+1323.6s	229	Epoch [6/30] - Train Loss: 0.0496 | Mean Val Macro-F1: 0.9084
+1323.6s	230	   -> Photo: Acc=0.9496, F1=0.9385
+1323.6s	231	   -> Art_painting: Acc=0.8662, F1=0.8722
+1323.6s	232	   -> Cartoon: Acc=0.9066, F1=0.9145
+1323.6s	233	[!] No improvement for 3 epoch(s).
+1369.5s	234	Epoch [7/30] - Train Loss: 0.0437 | Mean Val Macro-F1: 0.8962
+1369.5s	235	   -> Photo: Acc=0.9466, F1=0.9377
+1369.5s	236	   -> Art_painting: Acc=0.8516, F1=0.8443
+1369.5s	237	   -> Cartoon: Acc=0.8960, F1=0.9064
+1369.5s	238	[!] No improvement for 4 epoch(s).
+1415.6s	239	Epoch [8/30] - Train Loss: 0.0519 | Mean Val Macro-F1: 0.9349
+1415.6s	240	   -> Photo: Acc=0.9674, F1=0.9632
+1415.6s	241	   -> Art_painting: Acc=0.8978, F1=0.8900
+1415.6s	242	   -> Cartoon: Acc=0.9490, F1=0.9515
+1415.6s	243	[!] No improvement for 5 epoch(s).
+1415.6s	244	Early stopping triggered after 8 epochs.
+1424.1s	245	Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+1433.3s	246	Starting training for SAM on cuda...
+1480.0s	247	Epoch [1/30] - Train Loss: 1.9401 | Mean Val Macro-F1: 0.0506
+1480.0s	248	   -> Photo: Acc=0.2582, F1=0.0586
+1480.0s	249	   -> Art_painting: Acc=0.2190, F1=0.0513
+1480.0s	250	   -> Cartoon: Acc=0.1720, F1=0.0419
+1480.0s	251	[*] New best model saved to task3/checkpoints/sam_1_best.pt
+1525.1s	252	Epoch [2/30] - Train Loss: 1.9305 | Mean Val Macro-F1: 0.1103
+1525.1s	253	   -> Photo: Acc=0.3561, F1=0.1685
+1525.1s	254	   -> Art_painting: Acc=0.2311, F1=0.0742
+1525.1s	255	   -> Cartoon: Acc=0.1953, F1=0.0883
+1525.2s	256	[*] New best model saved to task3/checkpoints/sam_1_best.pt
+1570.8s	257	Epoch [3/30] - Train Loss: 1.8838 | Mean Val Macro-F1: 0.0506
+1570.8s	258	   -> Photo: Acc=0.2582, F1=0.0586
+1570.8s	259	   -> Art_painting: Acc=0.2190, F1=0.0513
+1570.8s	260	   -> Cartoon: Acc=0.1720, F1=0.0419
+1570.8s	261	[!] No improvement for 1 epoch(s).
+1615.4s	262	Epoch [4/30] - Train Loss: 1.8260 | Mean Val Macro-F1: 0.0506
+1615.4s	263	   -> Photo: Acc=0.2582, F1=0.0586
+1615.4s	264	   -> Art_painting: Acc=0.2190, F1=0.0513
+1615.4s	265	   -> Cartoon: Acc=0.1720, F1=0.0419
+1615.4s	266	[!] No improvement for 2 epoch(s).
+1660.7s	267	Epoch [5/30] - Train Loss: 1.8170 | Mean Val Macro-F1: 0.0506
+1660.7s	268	   -> Photo: Acc=0.2582, F1=0.0586
+1660.7s	269	   -> Art_painting: Acc=0.2190, F1=0.0513
+1660.7s	270	   -> Cartoon: Acc=0.1720, F1=0.0419
+1660.7s	271	[!] No improvement for 3 epoch(s).
+1705.6s	272	Epoch [6/30] - Train Loss: 1.7354 | Mean Val Macro-F1: 0.2216
+1705.6s	273	   -> Photo: Acc=0.4629, F1=0.2490
+1705.6s	274	   -> Art_painting: Acc=0.3285, F1=0.1770
+1705.6s	275	   -> Cartoon: Acc=0.3503, F1=0.2389
+1705.7s	276	[*] New best model saved to task3/checkpoints/sam_1_best.pt
+1751.0s	277	Epoch [7/30] - Train Loss: 1.7210 | Mean Val Macro-F1: 0.2420
+1751.0s	278	   -> Photo: Acc=0.5134, F1=0.2848
+1751.0s	279	   -> Art_painting: Acc=0.3455, F1=0.2225
+1751.0s	280	   -> Cartoon: Acc=0.3333, F1=0.2188
+1751.1s	281	[*] New best model saved to task3/checkpoints/sam_1_best.pt
+1796.5s	282	Epoch [8/30] - Train Loss: 1.5882 | Mean Val Macro-F1: 0.3268
+1796.5s	283	   -> Photo: Acc=0.5846, F1=0.4156
+1796.5s	284	   -> Art_painting: Acc=0.3309, F1=0.2251
+1796.5s	285	   -> Cartoon: Acc=0.4246, F1=0.3398
+1796.6s	286	[*] New best model saved to task3/checkpoints/sam_1_best.pt
+1841.8s	287	Epoch [9/30] - Train Loss: 1.1903 | Mean Val Macro-F1: 0.6236
+1841.8s	288	   -> Photo: Acc=0.7567, F1=0.7041
+1841.8s	289	   -> Art_painting: Acc=0.5158, F1=0.5096
+1841.8s	290	   -> Cartoon: Acc=0.6539, F1=0.6569
+1841.9s	291	[*] New best model saved to task3/checkpoints/sam_1_best.pt
+1887.6s	292	Epoch [10/30] - Train Loss: 0.8536 | Mean Val Macro-F1: 0.7691
+1887.6s	293	   -> Photo: Acc=0.8338, F1=0.7981
+1887.6s	294	   -> Art_painting: Acc=0.7056, F1=0.7066
+1887.6s	295	   -> Cartoon: Acc=0.7941, F1=0.8027
+1887.7s	296	[*] New best model saved to task3/checkpoints/sam_1_best.pt
+1932.6s	297	Epoch [11/30] - Train Loss: 0.5332 | Mean Val Macro-F1: 0.8379
+1932.6s	298	   -> Photo: Acc=0.8961, F1=0.8737
+1932.6s	299	   -> Art_painting: Acc=0.7640, F1=0.7712
+1932.6s	300	   -> Cartoon: Acc=0.8514, F1=0.8688
+1932.6s	301	[*] New best model saved to task3/checkpoints/sam_1_best.pt
+1978.1s	302	Epoch [12/30] - Train Loss: 0.3782 | Mean Val Macro-F1: 0.8930
+1978.1s	303	   -> Photo: Acc=0.9318, F1=0.9159
+1978.1s	304	   -> Art_painting: Acc=0.8345, F1=0.8317
+1978.1s	305	   -> Cartoon: Acc=0.9257, F1=0.9314
+1978.3s	306	[*] New best model saved to task3/checkpoints/sam_1_best.pt
+2023.9s	307	Epoch [13/30] - Train Loss: 0.2477 | Mean Val Macro-F1: 0.8998
+2023.9s	308	   -> Photo: Acc=0.9347, F1=0.9231
+2023.9s	309	   -> Art_painting: Acc=0.8516, F1=0.8468
+2023.9s	310	   -> Cartoon: Acc=0.9236, F1=0.9296
+2024.0s	311	[*] New best model saved to task3/checkpoints/sam_1_best.pt
+2069.5s	312	Epoch [14/30] - Train Loss: 0.1797 | Mean Val Macro-F1: 0.9167
+2069.5s	313	   -> Photo: Acc=0.9377, F1=0.9253
+2069.5s	314	   -> Art_painting: Acc=0.8759, F1=0.8725
+2069.5s	315	   -> Cartoon: Acc=0.9469, F1=0.9522
+2069.6s	316	[*] New best model saved to task3/checkpoints/sam_1_best.pt
+2115.3s	317	Epoch [15/30] - Train Loss: 0.1421 | Mean Val Macro-F1: 0.9208
+2115.3s	318	   -> Photo: Acc=0.9496, F1=0.9423
+2115.3s	319	   -> Art_painting: Acc=0.8856, F1=0.8832
+2115.3s	320	   -> Cartoon: Acc=0.9321, F1=0.9368
+2115.4s	321	[*] New best model saved to task3/checkpoints/sam_1_best.pt
+2160.8s	322	Epoch [16/30] - Train Loss: 0.1079 | Mean Val Macro-F1: 0.9259
+2160.8s	323	   -> Photo: Acc=0.9525, F1=0.9470
+2160.8s	324	   -> Art_painting: Acc=0.8856, F1=0.8825
+2160.8s	325	   -> Cartoon: Acc=0.9448, F1=0.9481
+2160.9s	326	[*] New best model saved to task3/checkpoints/sam_1_best.pt
+2206.5s	327	Epoch [17/30] - Train Loss: 0.0817 | Mean Val Macro-F1: 0.9318
+2206.5s	328	   -> Photo: Acc=0.9674, F1=0.9619
+2206.5s	329	   -> Art_painting: Acc=0.8783, F1=0.8731
+2206.5s	330	   -> Cartoon: Acc=0.9575, F1=0.9605
+2206.6s	331	[*] New best model saved to task3/checkpoints/sam_1_best.pt
+2252.2s	332	Epoch [18/30] - Train Loss: 0.0591 | Mean Val Macro-F1: 0.9243
+2252.2s	333	   -> Photo: Acc=0.9614, F1=0.9535
+2252.2s	334	   -> Art_painting: Acc=0.8686, F1=0.8620
+2252.2s	335	   -> Cartoon: Acc=0.9533, F1=0.9573
+2252.2s	336	[!] No improvement for 1 epoch(s).
+2297.6s	337	Epoch [19/30] - Train Loss: 0.0572 | Mean Val Macro-F1: 0.9368
+2297.6s	338	   -> Photo: Acc=0.9644, F1=0.9560
+2297.6s	339	   -> Art_painting: Acc=0.8954, F1=0.8923
+2297.6s	340	   -> Cartoon: Acc=0.9575, F1=0.9620
+2297.7s	341	[*] New best model saved to task3/checkpoints/sam_1_best.pt
+2343.1s	342	Epoch [20/30] - Train Loss: 0.0437 | Mean Val Macro-F1: 0.9350
+2343.1s	343	   -> Photo: Acc=0.9644, F1=0.9582
+2343.1s	344	   -> Art_painting: Acc=0.8808, F1=0.8793
+2343.1s	345	   -> Cartoon: Acc=0.9639, F1=0.9675
+2343.1s	346	[!] No improvement for 1 epoch(s).
+2388.8s	347	Epoch [21/30] - Train Loss: 0.0315 | Mean Val Macro-F1: 0.9414
+2388.8s	348	   -> Photo: Acc=0.9674, F1=0.9605
+2388.8s	349	   -> Art_painting: Acc=0.9075, F1=0.9016
+2388.8s	350	   -> Cartoon: Acc=0.9597, F1=0.9623
+2388.9s	351	[*] New best model saved to task3/checkpoints/sam_1_best.pt
+2434.9s	352	Epoch [22/30] - Train Loss: 0.0287 | Mean Val Macro-F1: 0.9359
+2434.9s	353	   -> Photo: Acc=0.9614, F1=0.9541
+2434.9s	354	   -> Art_painting: Acc=0.9002, F1=0.8923
+2434.9s	355	   -> Cartoon: Acc=0.9597, F1=0.9613
+2434.9s	356	[!] No improvement for 1 epoch(s).
+2480.1s	357	Epoch [23/30] - Train Loss: 0.0198 | Mean Val Macro-F1: 0.9389
+2480.1s	358	   -> Photo: Acc=0.9703, F1=0.9645
+2480.1s	359	   -> Art_painting: Acc=0.8954, F1=0.8867
+2480.1s	360	   -> Cartoon: Acc=0.9639, F1=0.9653
+2480.1s	361	[!] No improvement for 2 epoch(s).
+2525.6s	362	Epoch [24/30] - Train Loss: 0.0189 | Mean Val Macro-F1: 0.9399
+2525.6s	363	   -> Photo: Acc=0.9614, F1=0.9542
+2525.6s	364	   -> Art_painting: Acc=0.9002, F1=0.8970
+2525.6s	365	   -> Cartoon: Acc=0.9639, F1=0.9686
+2525.6s	366	[!] No improvement for 3 epoch(s).
+2571.3s	367	Epoch [25/30] - Train Loss: 0.0147 | Mean Val Macro-F1: 0.9253
+2571.3s	368	   -> Photo: Acc=0.9496, F1=0.9394
+2571.3s	369	   -> Art_painting: Acc=0.8978, F1=0.8923
+2571.3s	370	   -> Cartoon: Acc=0.9427, F1=0.9442
+2571.3s	371	[!] No improvement for 4 epoch(s).
+2616.8s	372	Epoch [26/30] - Train Loss: 0.0130 | Mean Val Macro-F1: 0.9262
+2616.8s	373	   -> Photo: Acc=0.9555, F1=0.9466
+2616.8s	374	   -> Art_painting: Acc=0.8735, F1=0.8753
+2616.8s	375	   -> Cartoon: Acc=0.9554, F1=0.9567
+2616.8s	376	[!] No improvement for 5 epoch(s).
+2616.8s	377	Early stopping triggered after 26 epochs.

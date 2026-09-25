@@ -25,6 +25,8 @@ shared/data/
 
 checkpoints/
 task1/checkpoints/
+task2/checkpoints/
+task3/checkpoints/
 task4/checkpoints/
 *.pth
 *.pt

@@ -2,52 +2,33 @@
 
 This repository contains the implementation for Task 4, which explores Open-Set Recognition (OSR) by evaluating how well different model training strategies and post-hoc scoring functions distinguish known classes (CIFAR-10) from unknown, unseen classes (filtered CIFAR-100). The objective is to analyze the trade-offs between closed-set accuracy (CSA) and the ability to reject near and far semantic unknowns.
 
-## Implemented Methods & Reference Literature
+## Experimental Framework
 
-The codebase implements a baseline classifier, strong augmentation techniques, and representation-altering methodologies to evaluate open-set rejection limits. These implementations are directly based on the following literature:
+Evaluations are conducted on a modified ResNet-18 backbone adapted for $32 \times 32$ spatial dimensions. We divide unknown samples into near-semantic and far-semantic pools to isolate the impact of conceptual proximity on rejection performance. We evaluate rejection efficacy using AUROC and FPR@95TPR across the following methodologies:
 
-*   **Vanilla Baseline & Post-hoc Scoring:** Evaluates Maximum Softmax Probability (MSP), Maximum Logit Score (MLS), Energy, and Mahalanobis distance on a standard ResNet-18.
-    *   *Hendrycks and Gimpel (2017)*: Motivates the baseline maximum-softmax scoring (MSP).
-    *   *Liu et al. (2020)*: Provides the mathematical foundation for the Energy-based score using all classifier logits.
-*   **GCSC (Good Closed-Set Classifier):** Uses `RandAugment` to test if improving known-class generalization inherently improves unknown rejection.
-    *   *Vaze et al. (2022)*: Explores the relationship between closed-set classifier quality and Maximum Logit Score (MLS).
-*   **PROSER (Placeholder Learning):** Appends dummy classifiers and utilizes manifold mixup between known classes to synthesize proxy data placeholders. 
-    *   *Zhou et al. (2021)*: Provides the architecture and loss functions for learning classifier and data placeholders for OSR.
-*   **RPL (Reciprocal Point Learning):** Learns what each class is *not* by pushing features away from learned reciprocal points and applying open-space regularization.
-    *   *Chen et al. (2020)*: Introduces reciprocal points to bound the known feature space.
+*   **Vanilla Baseline & Post-hoc Scoring:** Evaluates standard post-hoc scores—Maximum Softmax Probability (MSP), Maximum Logit Score (MLS), Energy, and Mahalanobis distance—on a network trained via standard cross-entropy.
+*   **GCSC (Good Closed-Set Classifier):** Investigates whether enforcing robust in-distribution generalization (via `RandAugment`) inherently improves unknown rejection boundaries.
+*   **PROSER (Placeholder Learning):** A proactive architecture that appends dummy classifiers and utilizes manifold mixup between known classes to synthesize proxy data placeholders, directly optimizing the network to reject out-of-distribution inputs.
+*   **RPL (Reciprocal Point Learning):** Shifts the classification paradigm by pushing known-class features away from their corresponding, learned reciprocal anchors, applying open-space regularization to bound the known latent space.
 
-## Repository Structure
+## Directory Structure
 
-The codebase isolates dataset construction, model training, score extraction, and final evaluation so that all metrics are computed on identical, reproducible splits.
-
-```text
-task4/
-├── cache/                  # Stores cached .pt files (logits and features) from extract_outputs.py
-├── configs/                # YAML configuration files (base.yaml, vanilla.yaml, gcsc.yaml, proser.yaml, rpl.yaml)
-├── data/
-│   ├── cifar10.py          # CIFAR-10 training, validation, and test data loaders
-│   ├── cifar100_unknowns.py # CIFAR-100 near and far unknown data loaders
-│   ├── cifar10_split_seed6304.json # Cached index map enforcing the exact 90/10 stratified split
-│   └── make_splits.py      # Generates the stratified validation split using seed 6304
-├── evaluation/
-│   ├── failure_analysis.py # Isolates specific semantic failures (incorrectly accepted unknowns)
-│   ├── metrics.py          # Computes AUROC, FPR@95TPR, and 95th percentile validation thresholds
-│   └── thresholds.py       # (Deprecated/Merged into metrics.py during refactoring)
-├── methods/
-│   ├── gcsc.py             # GCSC training loop with RandAugment
-│   ├── manifold_mixup.py   # Beta-sampled hidden-state mixup for PROSER data placeholders
-│   ├── proser.py           # PROSER training loop with CP and DP loss functions
-│   ├── rpl.py              # Reciprocal point margin optimization
-│   └── vanilla.py          # Standard cross-entropy training loop
-├── models/
-│   └── resnet_cifar.py     # Modified ResNet-18 (3x3 conv1, no initial maxpool) for 32x32 images
-├── results/                # Outputs for tables, JSON metrics, and matplotlib figures
-├── scores/
-│   ├── energy.py           # Negative log-sum-exp scoring
-│   ├── mahalanobis.py      # Feature-space distance scoring using class means and diagonal covariance
-│   ├── mls.py              # Maximum Logit Score
-│   └── msp.py              # Maximum Softmax Probability
-├── evaluate_osr.py         # Main CPU evaluation script generating tabular results and ROC plots
-├── extract_outputs.py      # GPU script to execute inference and save unaugmented logits/features to cache/
-├── README.md               # Task documentation
-└── train.py                # Central CLI dispatcher for all model training
+*   `cache/`: Stores intermediate `.pt` tensors (logits and features) extracted by `extract_outputs.py` for rapid CPU evaluation.
+*   `configs/`: Contains YAML configuration files dictating hyperparameter setups for each strategy (`vanilla.yaml`, `gcsc.yaml`, `proser.yaml`, `rpl.yaml`).
+*   `data/`
+    *   `cifar10.py` / `cifar100_unknowns.py`: PyTorch datasets and loaders for known and unknown datasets.
+    *   `make_splits.py`: Generates a reproducible stratified validation split for threshold calibration.
+*   `evaluation/`
+    *   `failure_analysis.py`: Extracts and analyzes specific semantic failures (e.g., falsely accepted near unknowns).
+    *   `metrics.py`: Computes core OSR metrics (AUROC, FPR@95TPR) and validation thresholds.
+*   `methods/`
+    *   `vanilla.py`, `gcsc.py`, `proser.py`, `rpl.py`: Implementation of the respective training loops and custom loss functions.
+    *   `manifold_mixup.py`: Beta-sampled hidden-state mixup logic used by PROSER.
+*   `models/`
+    *   `resnet_cifar.py`: The ResNet-18 architecture modified for small-resolution CIFAR images.
+*   `results/`: Contains output tables, JSON metrics, and matplotlib figures (e.g., score distributions).
+*   `scores/`
+    *   `msp.py`, `mls.py`, `energy.py`, `mahalanobis.py`: Implementations of the respective post-hoc novelty scoring algorithms.
+*   `train.py`: Central training dispatcher for all models.
+*   `extract_outputs.py`: GPU-accelerated script that executes inference on trained checkpoints and caches raw logits/features.
+*   `evaluate_osr.py`: Main CPU evaluation script that ingests cached features to generate tabular results and ROC plots.

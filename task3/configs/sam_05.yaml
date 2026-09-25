@@ -1,0 +1,7 @@
+base_config: "task3/configs/base.yaml"
+method: "sam"
+checkpoint_name: "sam_05_best.pt"
+
+sam:
+  rho: 0.05
+  adaptive: false

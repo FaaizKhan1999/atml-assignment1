@@ -1,13 +1,88 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{14}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
+\bibitem[Huang and Belongie(2017)]{Huang_2017_ICCV}
+Xun Huang and Serge Belongie.
+\newblock Arbitrary style transfer in real-time with adaptive instance normalization.
+\newblock In \emph{Proceedings of the IEEE International Conference on Computer Vision (ICCV)}, Oct 2017.
+
 \bibitem[Geirhos et~al.(2022)Geirhos, Rubisch, Michaelis, Bethge, Wichmann, and Brendel]{geirhos2022imagenettrainedcnnsbiasedtexture}
 Robert Geirhos, Patricia Rubisch, Claudio Michaelis, Matthias Bethge, Felix~A. Wichmann, and Wieland Brendel.
 \newblock Imagenet-trained cnns are biased towards texture; increasing shape bias improves accuracy and robustness, 2022.
 \newblock URL \url{https://arxiv.org/abs/1811.12231}.
+
+\bibitem[Raghu et~al.(2021)Raghu, Unterthiner, Kornblith, Zhang, and Dosovitskiy]{NEURIPS2021_652cf383}
+Maithra Raghu, Thomas Unterthiner, Simon Kornblith, Chiyuan Zhang, and Alexey Dosovitskiy.
+\newblock Do vision transformers see like convolutional neural networks?
+\newblock In M.~Ranzato, A.~Beygelzimer, Y.~Dauphin, P.S. Liang, and J.~Wortman Vaughan, editors, \emph{Advances in Neural Information Processing Systems}, volume~34, pages 12116--12128. Curran Associates, Inc., 2021.
+\newblock URL \url{https://proceedings.neurips.cc/paper_files/paper/2021/file/652cf38361a209088302ba2b8b7f51e0-Paper.pdf}.
+
+\bibitem[Long et~al.(2015)Long, Cao, Wang, and Jordan]{pmlr-v37-long15}
+Mingsheng Long, Yue Cao, Jianmin Wang, and Michael Jordan.
+\newblock Learning transferable features with deep adaptation networks.
+\newblock In Francis Bach and David Blei, editors, \emph{Proceedings of the 32nd International Conference on Machine Learning}, volume~37 of \emph{Proceedings of Machine Learning Research}, pages 97--105, Lille, France, 07--09 Jul 2015. PMLR.
+\newblock URL \url{https://proceedings.mlr.press/v37/long15.html}.
+
+\bibitem[Ganin et~al.(2016)Ganin, Ustinova, Ajakan, Germain, Larochelle, Laviolette, March, and Lempitsky]{JMLR:v17:15-239}
+Yaroslav Ganin, Evgeniya Ustinova, Hana Ajakan, Pascal Germain, Hugo Larochelle, Fran{\c{c}}ois Laviolette, Mario March, and Victor Lempitsky.
+\newblock Domain-adversarial training of neural networks.
+\newblock \emph{Journal of Machine Learning Research}, 17\penalty0 (59):\penalty0 1--35, 2016.
+\newblock URL \url{http://jmlr.org/papers/v17/15-239.html}.
+
+\bibitem[Long et~al.(2018)Long, CAO, Wang, and Jordan]{NEURIPS2018_ab88b157}
+Mingsheng Long, ZHANGJIE CAO, Jianmin Wang, and Michael Jordan.
+\newblock Conditional adversarial domain adaptation.
+\newblock In S.~Bengio, H.~Wallach, H.~Larochelle, K.~Grauman, N.~Cesa-Bianchi, and R.~Garnett, editors, \emph{Advances in Neural Information Processing Systems}, volume~31. Curran Associates, Inc., 2018.
+\newblock URL \url{https://proceedings.neurips.cc/paper_files/paper/2018/file/ab88b15733f543179858600245108dd8-Paper.pdf}.
+
+\bibitem[Zhao et~al.(2019)Zhao, Combes, Zhang, and Gordon]{pmlr-v97-zhao19a}
+Han Zhao, Remi Tachet~Des Combes, Kun Zhang, and Geoffrey Gordon.
+\newblock On learning invariant representations for domain adaptation.
+\newblock In Kamalika Chaudhuri and Ruslan Salakhutdinov, editors, \emph{Proceedings of the 36th International Conference on Machine Learning}, volume~97 of \emph{Proceedings of Machine Learning Research}, pages 7523--7532. PMLR, 09--15 Jun 2019.
+\newblock URL \url{https://proceedings.mlr.press/v97/zhao19a.html}.
+
+\bibitem[Gulrajani and Lopez-Paz(2021)]{gulrajani2021in}
+Ishaan Gulrajani and David Lopez-Paz.
+\newblock In search of lost domain generalization.
+\newblock In \emph{International Conference on Learning Representations}, 2021.
+\newblock URL \url{https://openreview.net/forum?id=lQdXeXDoWtI}.
+
+\bibitem[Foret et~al.(2021)Foret, Kleiner, Mobahi, and Neyshabur]{foret2021sharpnessaware}
+Pierre Foret, Ariel Kleiner, Hossein Mobahi, and Behnam Neyshabur.
+\newblock Sharpness-aware minimization for efficiently improving generalization.
+\newblock In \emph{International Conference on Learning Representations}, 2021.
+\newblock URL \url{https://openreview.net/forum?id=6Tm1mposlrM}.
+
+\bibitem[Hendrycks and Gimpel(2017)]{hendrycks2017a}
+Dan Hendrycks and Kevin Gimpel.
+\newblock A baseline for detecting misclassified and out-of-distribution examples in neural networks.
+\newblock In \emph{International Conference on Learning Representations}, 2017.
+\newblock URL \url{https://openreview.net/forum?id=Hkg4TI9xl}.
+
+\bibitem[Liu et~al.(2020)Liu, Wang, Owens, and Li]{NEURIPS2020_f5496252}
+Weitang Liu, Xiaoyun Wang, John Owens, and Yixuan Li.
+\newblock Energy-based out-of-distribution detection.
+\newblock In H.~Larochelle, M.~Ranzato, R.~Hadsell, M.F. Balcan, and H.~Lin, editors, \emph{Advances in Neural Information Processing Systems}, volume~33, pages 21464--21475. Curran Associates, Inc., 2020.
+\newblock URL \url{https://proceedings.neurips.cc/paper_files/paper/2020/file/f5496252609c43eb8a3d147ab9b9c006-Paper.pdf}.
+
+\bibitem[Vaze et~al.(2022)Vaze, Han, Vedaldi, and Zisserman]{vaze2022opensetrecognitiongoodclosedset}
+Sagar Vaze, Kai Han, Andrea Vedaldi, and Andrew Zisserman.
+\newblock Open-set recognition: a good closed-set classifier is all you need?, 2022.
+\newblock URL \url{https://arxiv.org/abs/2110.06207}.
+
+\bibitem[Zhou et~al.(2021)Zhou, Ye, and Zhan]{Zhou_2021_CVPR}
+Da-Wei Zhou, Han-Jia Ye, and De-Chuan Zhan.
+\newblock Learning placeholders for open-set recognition.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, pages 4401--4410, June 2021.
+
+\bibitem[Chen et~al.(2020)Chen, Qiao, Shi, Peng, Li, Huang, Pu, and Tian]{Chen2020}
+Guangyao Chen, Limeng Qiao, Yemin Shi, Peixi Peng, Jia Li, Tiejun Huang, Shiliang Pu, and Yonghong Tian.
+\newblock Learning open set network with discriminative reciprocal points.
+\newblock In \emph{ECCV 2020}, 2020.
+\newblock \doi{10.1007/978-3-030-58580-8_30}.
 
 \end{thebibliography}

@@ -1,0 +1,7 @@
+base_config: "task3/configs/base.yaml"
+method: "dan_dg"
+checkpoint_name: "dan_dg_best.pt"
+
+dan_dg:
+  lambda_dg: 1.0
+  kernel_multipliers: [0.5, 1.0, 2.0]
